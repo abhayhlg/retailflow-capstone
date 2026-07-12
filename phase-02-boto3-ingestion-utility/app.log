@@ -1,0 +1,45 @@
+2026-07-12 09:48:12,032 [INFO] s3_ingest: S3IngestClient initialized successfully.
+2026-07-12 09:50:49,910 [INFO] s3_ingest: S3IngestClient initialized successfully.
+2026-07-12 09:51:24,724 [INFO] s3_ingest: S3IngestClient initialized successfully.
+2026-07-12 09:52:20,767 [INFO] s3_ingest: S3IngestClient initialized successfully.
+2026-07-12 09:53:14,377 [INFO] s3_ingest: S3IngestClient initialized successfully.
+2026-07-12 09:53:46,781 [INFO] s3_ingest: S3IngestClient initialized successfully.
+2026-07-12 09:57:48,992 [INFO] s3_ingest: S3IngestClient initialized successfully.
+2026-07-12 10:04:46,942 [INFO] s3_ingest: S3IngestClient initialized successfully.
+2026-07-12 10:06:26,115 [INFO] s3_ingest: S3IngestClient initialized successfully.
+2026-07-12 10:07:32,787 [INFO] s3_ingest: S3IngestClient initialized successfully.
+2026-07-12 10:09:25,366 [INFO] s3_ingest: S3IngestClient initialized successfully.
+2026-07-12 10:09:25,398 [INFO] s3_ingest: Starting upload: local 'C:\Users\hp\Desktop\retailflow-capstone\phase-02-boto3-ingestion-utility\data\orders20260701.json' -> s3://retailflow-abhay/raw/orders/date=2026-07-01/orders/
+2026-07-12 11:01:14,004 [INFO] s3_ingest: S3IngestClient initialized successfully.
+2026-07-12 11:01:14,021 [INFO] s3_ingest: Starting upload: local 'C:\Users\hp\Desktop\retailflow-capstone\phase-02-boto3-ingestion-utility\data\orders20260701.json' -> s3://retailflow-abhay/raw/orders/date=2026-07-01/orders20260701.json
+2026-07-12 11:01:16,366 [INFO] s3_ingest: Listing objects in s3://retailflow-abhay with prefix 'raw/orders/2026-07-01'
+2026-07-12 11:01:16,653 [INFO] s3_ingest: Generating presigned URL for s3://retailflow-abhay/raw/orders/date=2026-07-01/orders20260701.json
+2026-07-12 11:02:54,809 [INFO] s3_ingest: S3IngestClient initialized successfully.
+2026-07-12 11:02:54,825 [INFO] s3_ingest: Starting upload: local 'C:\Users\hp\Desktop\retailflow-capstone\phase-02-boto3-ingestion-utility\data\orders20260701.json' -> s3://retailflow-abhay/raw/orders/date=2026-07-01/orders20260701.json
+2026-07-12 11:02:56,257 [INFO] s3_ingest: Listing objects in s3://retailflow-abhay with prefix 'raw/orders/2026-07-01/'
+2026-07-12 11:02:56,507 [INFO] s3_ingest: Generating presigned URL for s3://retailflow-abhay/raw/orders/date=2026-07-01/orders20260701.json
+2026-07-12 11:04:26,529 [INFO] s3_ingest: S3IngestClient initialized successfully.
+2026-07-12 11:04:26,529 [INFO] s3_ingest: Starting upload: local 'C:\Users\hp\Desktop\retailflow-capstone\phase-02-boto3-ingestion-utility\data\orders20260701.json' -> s3://retailflow-abhay/raw/orders/date=2026-07-01/orders20260701.json
+2026-07-12 11:04:28,064 [INFO] s3_ingest: Listing objects in s3://retailflow-abhay with prefix 'raw/orders/2026-07-01/'
+2026-07-12 11:05:30,640 [INFO] s3_ingest: S3IngestClient initialized successfully.
+2026-07-12 11:05:30,640 [INFO] s3_ingest: Starting upload: local 'C:\Users\hp\Desktop\retailflow-capstone\phase-02-boto3-ingestion-utility\data\orders20260701.json' -> s3://retailflow-abhay/raw/orders/date=2026-07-01/orders20260701.json
+2026-07-12 11:05:32,048 [INFO] s3_ingest: Listing objects in s3://retailflow-abhay with prefix 'raw/orders/2026-07-01/'
+2026-07-12 11:05:32,293 [INFO] s3_ingest: Generating presigned URL for s3://retailflow-abhay/raw/orders/date=2026-07-01/orders20260701.json
+2026-07-12 11:08:10,121 [INFO] s3_ingest: S3IngestClient initialized successfully.
+2026-07-12 11:08:10,121 [INFO] s3_ingest: Starting upload: local 'C:\Users\hp\Desktop\retailflow-capstone\phase-02-boto3-ingestion-utility\data\orders20260701.json' -> s3://retailflow-abhay/raw/orders/date=2026-07-01/orders20260701.json
+2026-07-12 11:08:11,556 [INFO] s3_ingest: Listing objects in s3://retailflow-abhay with prefix 'raw/orders/date=2026-07-01/'
+2026-07-12 11:08:12,119 [INFO] s3_ingest: Generating presigned URL for s3://retailflow-abhay/raw/orders/date=2026-07-01/orders20260701.json
+2026-07-12 11:28:27,100 [INFO] s3_ingest: S3IngestClient initialized successfully.
+2026-07-12 11:28:27,100 [INFO] s3_ingest: Starting upload: local 'orders_20260712.csv' -> s3://my-test-bucket/raw/orders/dt=2026-07-12/orders_20260712.csv
+2026-07-12 11:28:27,101 [ERROR] s3_ingest: Operation 'upload_file' failed permanently. Error: An error occurred (AccessDenied) when calling the PutObject operation: Access Denied
+2026-07-12 11:28:27,103 [INFO] s3_ingest: S3IngestClient initialized successfully.
+2026-07-12 11:28:27,103 [INFO] s3_ingest: Starting upload: local 'orders_20260712.csv' -> s3://my-test-bucket/raw/orders/dt=2026-07-12/orders_20260712.csv
+2026-07-12 11:28:27,103 [WARNING] s3_ingest: S3 operation 'upload_file' failed. Retrying attempt 1/4 in 0.46s... Error: An error occurred (InternalError) when calling the PutObject operation: An internal server error occurred.
+2026-07-12 11:28:27,104 [WARNING] s3_ingest: S3 operation 'upload_file' failed. Retrying attempt 2/4 in 0.53s... Error: An error occurred (InternalError) when calling the PutObject operation: An internal server error occurred.
+2026-07-12 11:28:27,104 [WARNING] s3_ingest: S3 operation 'upload_file' failed. Retrying attempt 3/4 in 3.40s... Error: An error occurred (InternalError) when calling the PutObject operation: An internal server error occurred.
+2026-07-12 11:28:27,104 [WARNING] s3_ingest: S3 operation 'upload_file' failed. Retrying attempt 4/4 in 2.17s... Error: An error occurred (InternalError) when calling the PutObject operation: An internal server error occurred.
+2026-07-12 11:28:27,105 [ERROR] s3_ingest: Operation 'upload_file' failed permanently. Error: An error occurred (InternalError) when calling the PutObject operation: An internal server error occurred.
+2026-07-12 11:28:27,107 [INFO] s3_ingest: S3IngestClient initialized successfully.
+2026-07-12 11:28:27,107 [INFO] s3_ingest: Starting upload: local 'orders_20260712.csv' -> s3://my-test-bucket/raw/orders/dt=2026-07-12/orders_20260712.csv
+2026-07-12 11:28:27,107 [WARNING] s3_ingest: S3 operation 'upload_file' failed. Retrying attempt 1/4 in 0.65s... Error: An error occurred (SlowDown) when calling the PutObject operation: Please reduce your request rate.
+2026-07-12 11:28:27,108 [WARNING] s3_ingest: S3 operation 'upload_file' failed. Retrying attempt 2/4 in 1.74s... Error: An error occurred (SlowDown) when calling the PutObject operation: Please reduce your request rate.

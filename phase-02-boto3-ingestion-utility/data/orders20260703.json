@@ -1,0 +1,9 @@
+{ "order_id": 21, "customer_id": 3850, "order_ts": "2026-07-03 10:32:31.195325", "store_region": "South", "status": "Completed" }
+{ "order_id": 22, "customer_id": 8821, "order_ts": "2026-07-03 18:10:50.813536", "store_region": "South", "status": "Shipped" }
+{ "order_id": 23, "customer_id": 1102, "order_ts": "2026-07-03 14:38:29.654816", "store_region": "South", "status": "Cancelled" }
+{ "order_id": 24, "customer_id": 1102, "order_ts": "2026-07-03 19:07:43.663054", "store_region": "West", "status": "Completed" }
+{ "order_id": 25, "customer_id": 3850, "order_ts": "2026-07-03 12:27:10.575763", "store_region": "West", "status": "Pending" }
+{ "order_id": 26, "customer_id": 1102, "order_ts": "2026-07-03 20:11:32.211579", "store_region": "North", "status": "Completed" }
+{ "order_id": 27, "customer_id": 1995, "order_ts": "2026-07-03 13:48:10.665579", "store_region": "South", "status": "Pending" }
+{ "order_id": 28, "customer_id": 4590, "order_ts": "2026-07-03 13:31:01.217301", "store_region": "West", "status": "Completed" }
+{ "order_id": 29, "customer_id": 1422, "order_ts": "2026-07-03 08:15:56.694916", "store_region": "South", "status": "Cancelled" }
