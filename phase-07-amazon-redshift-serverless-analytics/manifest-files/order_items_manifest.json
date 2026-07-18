@@ -1,0 +1,8 @@
+{
+  "entries": [
+    { "url": "s3://retailflow-abhay/curated/order_items/part-00000-602cb649-8fc0-4deb-b016-19ed0ebff5f7-c000.snappy.parquet", "mandatory": true },
+    { "url": "s3://retailflow-abhay/curated/order_items/part-00001-602cb649-8fc0-4deb-b016-19ed0ebff5f7-c000.snappy.parquet", "mandatory": true },
+	{ "url": "s3://retailflow-abhay/curated/order_items/part-00002-602cb649-8fc0-4deb-b016-19ed0ebff5f7-c000.snappy.parquet", "mandatory": true },
+	{ "url": "s3://retailflow-abhay/curated/order_items/part-00003-602cb649-8fc0-4deb-b016-19ed0ebff5f7-c000.snappy.parquet", "mandatory": true }
+  ]
+}

@@ -1,0 +1,7 @@
+Rules = [
+    IsComplete "order_id",
+    IsComplete "product_id",
+    IsComplete "quantity",
+    IsComplete "line_total",
+    ReferentialIntegrity "product_id" "products_ref.{product_id}" = 1.0
+]

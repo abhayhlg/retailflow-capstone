@@ -1,0 +1,8 @@
+{
+  "entries": [
+    { "url": "s3://retailflow-abhay/curated/orders/order_date=__HIVE_DEFAULT_PARTITION__/part-00000-e4032153-53eb-445d-b5b7-9d8dae974d74.c000.snappy.parquet", "mandatory": true },
+    { "url": "s3://retailflow-abhay/curated/orders/order_date=__HIVE_DEFAULT_PARTITION__/part-00001-e4032153-53eb-445d-b5b7-9d8dae974d74.c000.snappy.parquet", "mandatory": true },
+	{ "url": "s3://retailflow-abhay/curated/orders/order_date=__HIVE_DEFAULT_PARTITION__/part-00002-e4032153-53eb-445d-b5b7-9d8dae974d74.c000.snappy.parquet", "mandatory": true },
+	{ "url": "s3://retailflow-abhay/curated/orders/order_date=__HIVE_DEFAULT_PARTITION__/part-00003-e4032153-53eb-445d-b5b7-9d8dae974d74.c000.snappy.parquet", "mandatory": true }
+  ]
+}

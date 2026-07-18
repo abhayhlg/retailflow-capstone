@@ -1,0 +1,32 @@
+{
+  "entries": [
+    {
+      "url": "s3://retailflow-abhay/curated/customers/part-00000-11a1bfd7-8844-4cbb-91bb-48e1d0faa2c2-c000.snappy.parquet",
+      "mandatory": true,
+      "meta": {
+        "content_length": 50094
+      }
+    },
+    {
+      "url": "s3://retailflow-abhay/curated/customers/part-00001-11a1bfd7-8844-4cbb-91bb-48e1d0faa2c2-c000.snappy.parquet",
+      "mandatory": true,
+      "meta": {
+        "content_length": 53240
+      }
+    },
+    {
+      "url": "s3://retailflow-abhay/curated/customers/part-00002-11a1bfd7-8844-4cbb-91bb-48e1d0faa2c2-c000.snappy.parquet",
+      "mandatory": true,
+      "meta": {
+        "content_length": 50497
+      }
+    },
+    {
+      "url": "s3://retailflow-abhay/curated/customers/part-00003-11a1bfd7-8844-4cbb-91bb-48e1d0faa2c2-c000.snappy.parquet",
+      "mandatory": true,
+      "meta": {
+        "content_length": 51516
+      }
+    }
+  ]
+}

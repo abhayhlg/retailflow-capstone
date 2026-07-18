@@ -1,901 +1,801 @@
-product_id,category,unit_price,active_flag
-1,Books,204.51,0
-2,Books,527.03,1
-3,Toys,476.76,1
-4,Toys,77.85,1
-5,Fashion,478.11,0
-6,Sports,125.68,0
-7,Sports,374.47,1
-8,Books,242.79,0
-9,Home,289.2,0
-10,Fashion,462.12,1
-11,Sports,329.84,0
-12,Home,128.06,0
-13,Books,636.58,0
-14,Sports,224.27,1
-15,Fashion,328.43,1
-16,Books,453.54,1
-17,Toys,343.32,0
-18,Sports,327.08,0
-19,Toys,197.86,1
-20,Books,607.67,1
-21,Books,581.75,1
-22,Home,145.99,0
-23,Toys,26.58,0
-24,Home,67.56,0
-25,Books,514.96,0
-26,Toys,591.05,1
-27,Home,84.84,1
-28,Books,174.02,0
-29,Sports,620.4,1
-30,Fashion,289.67,0
-31,Sports,298.44,1
-32,Electronics,694.38,1
-33,Fashion,26.6,1
-34,Books,286.79,1
-35,Electronics,401.13,0
-36,Home,586.46,1
-37,Electronics,168.0,1
-38,Home,473.64,1
-39,Toys,184.15,1
-40,Electronics,477.91,0
-41,Toys,681.65,1
-42,Books,524.36,1
-43,Electronics,754.94,1
-44,Toys,632.6,1
-45,Fashion,697.24,1
-46,Home,515.57,1
-47,Sports,119.13,0
-48,Books,171.38,0
-49,Sports,348.16,1
-50,Sports,138.62,0
-51,Books,453.83,1
-52,Fashion,698.79,0
-53,Home,289.94,0
-54,Sports,48.12,1
-55,Sports,778.89,0
-56,Books,336.94,1
-57,Fashion,530.08,0
-58,Toys,758.85,1
-59,Sports,123.0,0
-60,Books,415.28,0
-61,Toys,650.79,1
-62,Home,702.23,1
-63,Sports,722.03,1
-64,Toys,197.1,0
-65,Fashion,117.22,1
-66,Sports,163.05,1
-67,Electronics,291.44,1
-68,Sports,648.13,1
-69,Books,451.72,0
-70,Sports,747.23,1
-71,Books,723.95,0
-72,Electronics,785.58,1
-73,Sports,410.49,0
-74,Electronics,510.96,1
-75,Electronics,677.77,1
-76,Electronics,360.69,0
-77,Fashion,307.56,0
-78,Home,432.74,1
-79,Books,84.8,0
-80,Toys,475.54,0
-81,Fashion,272.09,1
-82,Toys,333.65,1
-83,Electronics,192.5,1
-84,Books,413.77,1
-85,Toys,15.28,1
-86,Toys,273.12,1
-87,Sports,396.11,1
-88,Electronics,375.31,1
-89,Home,520.51,1
-90,Home,215.31,1
-91,Fashion,53.17,1
-92,Sports,769.09,1
-93,Books,476.92,0
-94,Home,549.46,1
-95,Electronics,232.54,0
-96,Fashion,134.76,1
-97,Home,661.37,1
-98,Electronics,190.55,0
-99,Books,561.41,1
-100,Fashion,91.08,0
-101,Sports,649.98,1
-102,Home,337.89,1
-103,Sports,341.24,1
-104,Home,255.47,1
-105,Sports,550.83,1
-106,Electronics,621.48,0
-107,Sports,52.02,1
-108,Home,712.94,0
-109,Sports,791.38,0
-110,Sports,498.56,1
-111,Toys,229.26,1
-112,Books,21.25,0
-113,Fashion,613.73,0
-114,Sports,764.13,0
-115,Electronics,313.99,1
-116,Electronics,22.38,1
-117,Electronics,108.98,1
-118,Books,131.68,1
-119,Books,277.67,1
-120,Fashion,127.32,0
-121,Books,198.66,1
-122,Sports,247.32,1
-123,Home,237.01,1
-124,Electronics,26.52,1
-125,Sports,683.58,0
-126,Sports,254.32,0
-127,Books,711.48,1
-128,Fashion,603.19,0
-129,Electronics,78.7,0
-130,Home,43.84,0
-131,Electronics,471.32,1
-132,Toys,337.77,0
-133,Electronics,312.94,0
-134,Books,345.41,0
-135,Fashion,786.32,0
-136,Books,486.89,1
-137,Fashion,145.26,0
-138,Home,93.46,0
-139,Electronics,305.56,0
-140,Electronics,656.25,1
-141,Electronics,67.91,1
-142,Sports,386.66,1
-143,Electronics,706.95,0
-144,Electronics,575.87,0
-145,Home,761.17,1
-146,Books,679.49,1
-147,Toys,154.67,0
-148,Sports,389.33,1
-149,Books,491.39,0
-150,Sports,235.92,0
-151,Books,412.78,0
-152,Fashion,376.29,0
-153,Books,73.38,0
-154,Fashion,87.52,0
-155,Books,372.41,0
-156,Electronics,69.26,0
-157,Sports,381.33,1
-158,Electronics,697.38,0
-159,Books,281.81,1
-160,Fashion,512.04,0
-161,Electronics,318.85,1
-162,Electronics,458.13,0
-163,Fashion,777.64,1
-164,Toys,371.74,0
-165,Books,188.68,0
-166,Books,463.7,1
-167,Books,631.13,0
-168,Electronics,431.5,1
-169,Fashion,456.98,1
-170,Sports,234.66,0
-171,Fashion,150.47,0
-172,Sports,497.19,0
-173,Fashion,92.18,1
-174,Books,622.42,1
-175,Sports,304.13,0
-176,Sports,440.59,1
-177,Books,292.61,1
-178,Fashion,316.72,0
-179,Sports,713.95,0
-180,Sports,611.88,0
-181,Electronics,347.52,0
-182,Toys,753.4,0
-183,Books,71.4,0
-184,Fashion,128.14,1
-185,Electronics,190.63,0
-186,Books,280.33,1
-187,Electronics,725.13,1
-188,Books,743.5,1
-189,Toys,105.68,0
-190,Toys,485.64,0
-191,Books,569.33,1
-192,Books,331.87,1
-193,Sports,48.26,1
-194,Electronics,448.02,0
-195,Toys,199.82,1
-196,Sports,14.88,1
-197,Sports,589.02,0
-198,Books,78.45,0
-199,Sports,737.61,0
-200,Toys,300.96,1
-201,Toys,368.87,1
-202,Toys,499.66,1
-203,Toys,134.09,1
-204,Home,636.46,0
-205,Sports,275.12,0
-206,Fashion,365.41,1
-207,Home,721.11,0
-208,Books,229.75,0
-209,Toys,264.41,1
-210,Home,213.01,1
-211,Sports,319.95,0
-212,Fashion,292.32,1
-213,Home,430.75,1
-214,Sports,159.98,0
-215,Sports,341.01,1
-216,Electronics,359.82,1
-217,Electronics,482.46,1
-218,Books,124.14,1
-219,Home,728.45,0
-220,Sports,350.1,0
-221,Sports,247.26,1
-222,Home,574.99,1
-223,Books,268.92,1
-224,Electronics,630.55,1
-225,Toys,337.62,1
-226,Home,481.43,1
-227,Home,682.9,0
-228,Electronics,620.65,0
-229,Toys,494.01,1
-230,Home,485.37,0
-231,Toys,496.14,0
-232,Home,154.78,0
-233,Fashion,682.35,1
-234,Fashion,286.27,0
-235,Fashion,713.19,1
-236,Home,319.98,0
-237,Home,600.1,0
-238,Sports,154.79,1
-239,Electronics,176.47,0
-240,Home,497.21,0
-241,Sports,720.24,1
-242,Electronics,623.53,1
-243,Electronics,103.78,0
-244,Sports,125.23,0
-245,Home,37.48,0
-246,Home,22.86,1
-247,Books,364.77,0
-248,Toys,565.18,1
-249,Home,344.09,1
-250,Books,464.38,0
-251,Toys,123.45,1
-252,Books,380.35,0
-253,Books,413.76,1
-254,Toys,625.21,1
-255,Books,566.66,0
-256,Books,127.35,0
-257,Books,358.37,0
-258,Electronics,149.24,1
-259,Home,71.83,1
-260,Fashion,318.64,1
-261,Books,592.08,0
-262,Toys,517.34,1
-263,Electronics,65.17,0
-264,Electronics,461.36,0
-265,Toys,581.09,0
-266,Sports,59.62,0
-267,Sports,565.06,0
-268,Books,504.67,0
-269,Electronics,272.27,1
-270,Home,565.01,1
-271,Electronics,420.06,1
-272,Fashion,786.28,1
-273,Electronics,653.93,1
-274,Toys,189.25,1
-275,Sports,430.52,1
-276,Sports,737.65,1
-277,Books,449.87,0
-278,Fashion,63.08,1
-279,Books,466.58,0
-280,Sports,103.98,0
-281,Home,547.84,1
-282,Fashion,215.66,1
-283,Toys,170.2,1
-284,Books,670.82,0
-285,Home,510.54,1
-286,Books,209.67,0
-287,Home,92.31,0
-288,Toys,768.64,0
-289,Toys,477.02,0
-290,Toys,622.07,0
-291,Books,725.29,0
-292,Books,474.79,0
-293,Home,374.49,0
-294,Sports,474.69,0
-295,Books,289.07,1
-296,Toys,590.02,0
-297,Sports,268.46,1
-298,Books,371.52,1
-299,Toys,701.76,1
-300,Fashion,133.23,1
-301,Fashion,528.45,0
-302,Books,433.95,0
-303,Books,671.02,0
-304,Fashion,142.3,1
-305,Electronics,405.66,0
-306,Electronics,158.79,0
-307,Sports,790.58,0
-308,Sports,18.52,1
-309,Home,164.54,0
-310,Home,629.09,0
-311,Fashion,232.49,1
-312,Sports,74.01,1
-313,Electronics,109.99,1
-314,Fashion,713.61,0
-315,Books,201.72,0
-316,Books,760.38,1
-317,Fashion,23.86,1
-318,Sports,737.77,1
-319,Home,153.43,0
-320,Toys,192.16,0
-321,Books,200.03,1
-322,Books,704.84,0
-323,Fashion,626.9,1
-324,Electronics,494.66,0
-325,Books,209.67,0
-326,Electronics,345.76,1
-327,Home,61.2,0
-328,Fashion,385.7,1
-329,Fashion,449.98,1
-330,Books,76.26,1
-331,Home,159.48,1
-332,Home,751.8,1
-333,Books,373.52,1
-334,Sports,74.06,0
-335,Fashion,791.42,0
-336,Electronics,166.69,0
-337,Toys,124.05,0
-338,Toys,323.93,0
-339,Books,141.32,0
-340,Toys,397.46,1
-341,Fashion,74.68,1
-342,Electronics,258.5,0
-343,Fashion,460.31,0
-344,Sports,310.3,0
-345,Toys,341.61,0
-346,Electronics,693.95,0
-347,Toys,566.71,0
-348,Sports,711.78,1
-349,Sports,248.57,0
-350,Books,653.74,1
-351,Books,737.65,0
-352,Toys,716.02,0
-353,Home,286.89,1
-354,Sports,296.62,0
-355,Fashion,597.89,1
-356,Home,648.18,1
-357,Books,596.38,1
-358,Books,525.37,1
-359,Books,93.42,0
-360,Electronics,530.3,0
-361,Sports,555.35,1
-362,Sports,362.94,0
-363,Sports,223.21,0
-364,Sports,683.43,0
-365,Toys,316.26,0
-366,Fashion,85.87,0
-367,Electronics,619.0,1
-368,Books,631.45,1
-369,Home,140.51,1
-370,Books,635.94,0
-371,Books,357.58,0
-372,Fashion,176.0,0
-373,Sports,381.6,0
-374,Home,332.14,1
-375,Home,746.74,1
-376,Home,402.98,0
-377,Books,758.03,0
-378,Sports,582.34,1
-379,Toys,61.51,0
-380,Electronics,330.74,1
-381,Fashion,742.64,0
-382,Toys,451.49,0
-383,Sports,217.05,1
-384,Electronics,264.31,1
-385,Books,116.3,1
-386,Electronics,724.58,0
-387,Electronics,319.99,0
-388,Home,758.62,0
-389,Home,292.05,1
-390,Toys,425.65,0
-391,Electronics,488.1,1
-392,Home,385.62,1
-393,Fashion,714.76,1
-394,Home,545.7,0
-395,Sports,669.03,1
-396,Fashion,77.22,1
-397,Toys,69.06,0
-398,Fashion,444.86,0
-399,Sports,160.74,1
-400,Fashion,524.29,1
-401,Electronics,227.82,0
-402,Home,280.48,0
-403,Books,558.7,1
-404,Fashion,327.42,1
-405,Toys,306.91,0
-406,Sports,132.41,0
-407,Toys,302.62,1
-408,Electronics,486.76,1
-409,Home,390.29,0
-410,Fashion,429.65,1
-411,Sports,522.82,1
-412,Toys,549.57,0
-413,Sports,779.82,0
-414,Electronics,494.35,0
-415,Sports,664.69,0
-416,Home,33.32,0
-417,Home,179.42,1
-418,Home,149.92,0
-419,Fashion,623.4,0
-420,Books,792.85,0
-421,Fashion,565.23,1
-422,Home,651.32,0
-423,Sports,727.53,1
-424,Books,349.31,1
-425,Fashion,540.98,1
-426,Books,490.48,0
-427,Books,783.34,0
-428,Fashion,135.78,1
-429,Home,225.44,0
-430,Electronics,740.17,1
-431,Electronics,662.23,1
-432,Electronics,501.16,0
-433,Electronics,782.18,0
-434,Home,90.61,0
-435,Sports,30.82,0
-436,Fashion,67.14,0
-437,Fashion,170.67,0
-438,Home,472.99,0
-439,Sports,429.69,0
-440,Toys,414.88,1
-441,Electronics,190.41,0
-442,Fashion,346.11,1
-443,Toys,399.34,1
-444,Books,641.41,1
-445,Electronics,200.91,0
-446,Fashion,18.5,1
-447,Books,766.32,1
-448,Fashion,130.18,0
-449,Sports,321.41,0
-450,Books,370.53,0
-451,Electronics,214.75,1
-452,Electronics,267.2,1
-453,Books,62.46,0
-454,Toys,271.64,0
-455,Books,728.57,1
-456,Home,23.27,0
-457,Toys,754.09,1
-458,Electronics,202.51,0
-459,Home,63.5,1
-460,Home,697.02,0
-461,Fashion,369.49,1
-462,Electronics,518.1,0
-463,Books,287.78,1
-464,Home,689.6,1
-465,Electronics,268.62,1
-466,Home,431.72,0
-467,Sports,90.11,1
-468,Home,108.43,0
-469,Toys,285.93,1
-470,Sports,198.27,1
-471,Toys,421.51,1
-472,Sports,284.04,0
-473,Books,93.77,1
-474,Fashion,657.79,0
-475,Books,168.15,1
-476,Electronics,587.78,0
-477,Toys,446.18,1
-478,Sports,349.39,1
-479,Toys,65.31,1
-480,Books,507.83,0
-481,Electronics,605.53,0
-482,Toys,697.36,0
-483,Home,225.67,0
-484,Toys,125.31,0
-485,Toys,437.55,1
-486,Books,10.32,1
-487,Toys,621.24,1
-488,Electronics,454.04,0
-489,Electronics,450.98,0
-490,Electronics,331.48,0
-491,Books,416.4,0
-492,Electronics,268.85,0
-493,Books,696.81,1
-494,Sports,662.78,0
-495,Sports,62.22,0
-496,Fashion,702.03,0
-497,Books,283.3,1
-498,Fashion,486.9,0
-499,Fashion,560.79,1
-500,Home,382.84,0
-501,Toys,305.77,0
-502,Sports,460.35,0
-503,Home,390.14,1
-504,Toys,515.2,1
-505,Electronics,153.22,0
-506,Fashion,261.78,1
-507,Books,236.27,0
-508,Electronics,534.67,1
-509,Sports,96.3,1
-510,Toys,399.5,0
-511,Sports,129.29,1
-512,Books,122.07,1
-513,Fashion,582.52,0
-514,Fashion,38.4,0
-515,Home,447.94,1
-516,Toys,186.81,0
-517,Fashion,675.93,1
-518,Toys,38.72,0
-519,Toys,381.65,1
-520,Fashion,731.33,0
-521,Home,725.38,1
-522,Electronics,127.03,0
-523,Fashion,348.58,0
-524,Sports,210.59,0
-525,Books,248.52,0
-526,Electronics,409.36,0
-527,Books,392.69,1
-528,Books,236.62,1
-529,Fashion,715.04,0
-530,Home,703.65,1
-531,Fashion,290.06,1
-532,Books,540.39,1
-533,Books,505.3,0
-534,Sports,585.52,0
-535,Electronics,757.19,1
-536,Books,694.04,0
-537,Books,542.57,1
-538,Books,298.44,1
-539,Toys,449.27,1
-540,Electronics,380.1,1
-541,Electronics,211.85,0
-542,Home,162.24,1
-543,Books,553.86,0
-544,Sports,691.96,1
-545,Fashion,111.89,0
-546,Home,33.94,1
-547,Home,165.59,0
-548,Electronics,281.87,0
-549,Electronics,370.58,0
-550,Toys,452.88,0
-551,Electronics,794.71,1
-552,Electronics,625.11,1
-553,Toys,588.32,0
-554,Fashion,434.16,0
-555,Sports,717.78,1
-556,Home,96.18,1
-557,Home,760.85,1
-558,Sports,704.02,1
-559,Electronics,509.99,1
-560,Sports,134.47,1
-561,Electronics,749.46,0
-562,Electronics,264.56,0
-563,Toys,73.25,0
-564,Books,599.89,1
-565,Books,132.77,0
-566,Sports,499.31,0
-567,Toys,279.7,1
-568,Fashion,337.29,0
-569,Home,634.99,0
-570,Sports,675.23,1
-571,Electronics,566.0,1
-572,Electronics,26.24,0
-573,Home,106.44,1
-574,Fashion,372.72,1
-575,Books,791.77,0
-576,Sports,661.82,1
-577,Sports,100.68,1
-578,Fashion,182.59,1
-579,Books,127.56,0
-580,Electronics,78.62,1
-581,Sports,507.45,1
-582,Electronics,198.64,1
-583,Sports,583.53,0
-584,Toys,766.15,1
-585,Home,425.18,0
-586,Home,756.51,0
-587,Toys,346.13,0
-588,Electronics,191.04,1
-589,Fashion,44.52,1
-590,Fashion,289.97,0
-591,Books,582.01,1
-592,Fashion,605.19,0
-593,Sports,706.19,1
-594,Sports,291.32,0
-595,Home,470.95,0
-596,Fashion,605.72,1
-597,Books,459.21,1
-598,Books,428.83,1
-599,Toys,718.14,1
-600,Toys,584.42,1
-601,Toys,726.26,0
-602,Books,207.46,0
-603,Books,220.51,1
-604,Electronics,474.49,1
-605,Home,20.15,0
-606,Toys,215.9,0
-607,Electronics,379.07,1
-608,Sports,433.49,1
-609,Electronics,498.85,0
-610,Books,139.96,1
-611,Fashion,721.74,0
-612,Fashion,306.81,1
-613,Books,377.76,0
-614,Sports,143.35,0
-615,Books,182.16,0
-616,Toys,610.8,1
-617,Fashion,417.41,1
-618,Sports,625.63,0
-619,Toys,735.08,1
-620,Books,692.15,1
-621,Toys,552.43,0
-622,Sports,729.6,1
-623,Books,542.24,1
-624,Electronics,24.92,0
-625,Toys,779.96,0
-626,Sports,172.65,0
-627,Toys,70.54,0
-628,Sports,568.7,1
-629,Fashion,588.94,0
-630,Sports,374.84,0
-631,Books,32.18,1
-632,Fashion,600.19,0
-633,Electronics,781.29,1
-634,Sports,651.85,0
-635,Toys,407.8,1
-636,Fashion,210.83,0
-637,Electronics,102.38,0
-638,Electronics,434.88,0
-639,Toys,331.67,0
-640,Fashion,37.96,0
-641,Toys,545.43,1
-642,Sports,710.16,1
-643,Toys,142.05,0
-644,Sports,25.22,1
-645,Books,764.38,1
-646,Sports,183.5,0
-647,Books,44.69,1
-648,Fashion,586.43,1
-649,Sports,658.14,1
-650,Fashion,499.14,0
-651,Sports,410.07,0
-652,Electronics,248.16,1
-653,Electronics,654.03,0
-654,Toys,370.28,1
-655,Fashion,200.08,0
-656,Books,735.24,0
-657,Home,602.78,0
-658,Toys,161.85,1
-659,Toys,219.25,1
-660,Electronics,773.53,0
-661,Sports,561.81,0
-662,Toys,393.46,0
-663,Fashion,757.22,0
-664,Fashion,316.33,1
-665,Home,380.06,1
-666,Electronics,316.62,1
-667,Sports,120.09,1
-668,Electronics,163.4,0
-669,Books,298.94,1
-670,Books,375.59,1
-671,Home,231.84,0
-672,Electronics,350.27,1
-673,Home,569.1,0
-674,Books,432.64,1
-675,Books,291.75,1
-676,Fashion,327.5,0
-677,Sports,189.87,1
-678,Fashion,361.83,0
-679,Electronics,136.07,0
-680,Electronics,238.26,0
-681,Books,213.91,0
-682,Sports,642.23,1
-683,Fashion,762.18,1
-684,Fashion,774.12,1
-685,Toys,248.09,1
-686,Electronics,578.78,1
-687,Fashion,728.58,1
-688,Sports,349.39,0
-689,Home,21.86,1
-690,Books,165.55,0
-691,Sports,623.94,1
-692,Fashion,670.01,0
-693,Fashion,497.27,1
-694,Books,308.14,0
-695,Electronics,461.66,0
-696,Fashion,404.31,1
-697,Fashion,235.62,1
-698,Books,774.78,1
-699,Fashion,37.0,1
-700,Home,89.76,1
-701,Home,248.53,1
-702,Toys,512.19,0
-703,Home,677.54,1
-704,Books,767.78,0
-705,Toys,151.09,1
-706,Fashion,639.62,1
-707,Sports,715.42,0
-708,Toys,177.86,1
-709,Sports,46.83,1
-710,Electronics,682.67,1
-711,Toys,555.43,0
-712,Electronics,250.91,0
-713,Books,775.1,1
-714,Fashion,186.09,0
-715,Electronics,33.22,0
-716,Toys,672.82,1
-717,Books,776.95,0
-718,Toys,350.45,0
-719,Toys,25.12,1
-720,Electronics,270.18,1
-721,Books,587.57,1
-722,Sports,760.96,0
-723,Fashion,604.96,0
-724,Electronics,157.25,0
-725,Toys,507.76,1
-726,Sports,390.86,0
-727,Home,453.25,1
-728,Electronics,769.06,1
-729,Electronics,152.98,1
-730,Books,54.87,0
-731,Electronics,339.4,0
-732,Electronics,406.95,1
-733,Electronics,244.86,0
-734,Fashion,95.46,0
-735,Home,569.34,0
-736,Electronics,307.97,0
-737,Electronics,707.89,0
-738,Toys,622.85,0
-739,Toys,477.87,0
-740,Books,493.34,1
-741,Fashion,676.03,1
-742,Fashion,502.84,1
-743,Sports,96.15,0
-744,Electronics,775.65,1
-745,Books,591.19,1
-746,Fashion,626.96,0
-747,Fashion,557.19,1
-748,Toys,494.18,1
-749,Electronics,662.42,1
-750,Electronics,725.07,0
-751,Books,552.64,0
-752,Books,136.18,1
-753,Sports,34.92,1
-754,Sports,414.93,1
-755,Books,538.44,0
-756,Books,125.8,0
-757,Fashion,73.06,1
-758,Toys,87.16,1
-759,Books,60.59,1
-760,Books,617.26,1
-761,Home,744.43,0
-762,Electronics,558.93,0
-763,Toys,789.76,0
-764,Electronics,799.18,1
-765,Books,517.87,1
-766,Sports,431.03,0
-767,Electronics,367.44,0
-768,Toys,601.06,1
-769,Toys,506.11,0
-770,Toys,440.03,1
-771,Home,129.3,1
-772,Sports,626.61,1
-773,Books,639.24,1
-774,Sports,480.55,0
-775,Electronics,539.42,0
-776,Sports,494.18,0
-777,Sports,541.96,1
-778,Electronics,308.19,0
-779,Fashion,251.42,1
-780,Fashion,256.87,0
-781,Sports,773.11,1
-782,Sports,765.8,1
-783,Sports,113.29,1
-784,Electronics,512.02,1
-785,Home,630.57,0
-786,Sports,209.61,1
-787,Sports,760.13,0
-788,Home,799.88,0
-789,Sports,565.57,0
-790,Electronics,771.0,1
-791,Sports,371.97,0
-792,Books,735.5,0
-793,Electronics,413.45,0
-794,Sports,450.38,0
-795,Toys,673.09,1
-796,Toys,795.7,1
-797,Books,526.15,1
-798,Sports,763.63,0
-799,Home,289.5,0
-800,Home,452.51,1
-801,Toys,775.52,0
-802,Home,506.08,0
-803,Toys,359.07,1
-804,Books,243.22,0
-805,Electronics,101.58,1
-806,Home,569.94,1
-807,Fashion,286.46,1
-808,Books,518.06,1
-809,Electronics,537.22,1
-810,Electronics,45.03,1
-811,Sports,228.77,1
-812,Electronics,364.66,1
-813,Sports,791.77,1
-814,Fashion,87.76,0
-815,Fashion,105.81,1
-816,Electronics,610.21,0
-817,Electronics,732.38,1
-818,Fashion,700.95,0
-819,Toys,709.35,1
-820,Fashion,111.92,0
-821,Toys,122.57,0
-822,Sports,234.71,1
-823,Sports,77.3,0
-824,Toys,177.68,1
-825,Books,691.14,1
-826,Electronics,163.93,0
-827,Sports,169.22,0
-828,Fashion,36.82,1
-829,Fashion,101.78,1
-830,Toys,769.95,1
-831,Electronics,342.22,1
-832,Home,755.05,1
-833,Books,726.98,1
-834,Books,557.52,0
-835,Home,487.17,1
-836,Books,113.03,1
-837,Books,404.13,0
-838,Home,74.89,1
-839,Home,484.77,1
-840,Sports,742.31,1
-841,Toys,114.35,1
-842,Books,414.23,1
-843,Sports,182.44,1
-844,Books,647.0,1
-845,Sports,388.22,1
-846,Electronics,558.34,0
-847,Toys,789.58,1
-848,Fashion,375.21,1
-849,Toys,76.79,1
-850,Fashion,640.57,1
-851,Sports,763.78,0
-852,Books,761.02,1
-853,Home,63.47,0
-854,Electronics,277.62,1
-855,Toys,569.07,1
-856,Books,621.02,0
-857,Sports,466.39,1
-858,Home,486.25,1
-859,Toys,95.24,0
-860,Home,63.05,0
-861,Books,235.88,1
-862,Home,42.46,0
-863,Books,291.5,0
-864,Toys,129.24,0
-865,Toys,198.5,0
-866,Sports,478.53,0
-867,Toys,394.55,1
-868,Toys,41.52,0
-869,Home,43.5,1
-870,Electronics,610.46,0
-871,Home,523.37,0
-872,Toys,680.29,0
-873,Home,612.84,0
-874,Fashion,361.23,0
-875,Electronics,789.52,1
-876,Electronics,638.12,0
-877,Home,361.39,0
-878,Books,131.09,0
-879,Electronics,235.09,0
-880,Electronics,603.2,1
-881,Books,446.93,1
-882,Electronics,419.97,1
-883,Sports,251.18,1
-884,Toys,788.65,1
-885,Home,665.27,1
-886,Toys,13.14,0
-887,Electronics,226.89,0
-888,Toys,476.21,1
-889,Fashion,164.1,1
-890,Books,632.14,1
-891,Electronics,549.04,0
-892,Toys,647.53,1
-893,Fashion,343.3,0
-894,Electronics,439.78,0
-895,Electronics,360.0,1
-896,Sports,702.05,1
-897,Sports,527.3,0
-898,Home,582.24,0
-899,Books,323.21,1
-900,Electronics,418.37,1
+product_id,product_name,category,unit_price,active_flag
+PROD00001,Face-to-face 6thgeneration interface,Beauty,109.96,True
+PROD00002,Function-based 4thgeneration portal,Sports,167.28,True
+PROD00003,Triple-buffered multi-state algorithm,Beauty,74.68,True
+PROD00004,Inverse next generation methodology,Toys,431.78,True
+PROD00005,Polarized attitude-oriented groupware,Electronics,356.92,True
+PROD00006,Intuitive tangible hardware,Home,387.99,True
+PROD00007,Right-sized systematic protocol,Home,266.3,True
+PROD00008,Team-oriented analyzing throughput,Grocery,126.65,True
+PROD00009,Sharable human-resource standardization,Apparel,418.36,False
+PROD00010,Down-sized zero-defect matrices,Books,365.15,True
+PROD00011,Progressive mission-critical pricing structure,Home,473.24,True
+PROD00012,Business-focused composite help-desk,Beauty,403.04,True
+PROD00013,Re-engineered bandwidth-monitored solution,Books,71.84,True
+PROD00014,Distributed 3rdgeneration structure,Home,157.66,True
+PROD00015,Upgradable encompassing info-mediaries,Beauty,439.9,True
+PROD00016,Front-line maximized concept,Apparel,132.47,True
+PROD00017,Customizable incremental conglomeration,Toys,492.86,True
+PROD00018,Up-sized hybrid infrastructure,Toys,227.51,True
+PROD00019,Up-sized 3rdgeneration data-warehouse,Sports,13.14,True
+PROD00020,Digitized content-based Graphic Interface,Electronics,342.31,True
+PROD00021,Profound exuding archive,Electronics,481.91,True
+PROD00022,Public-key 24hour conglomeration,Electronics,165.45,True
+PROD00023,Secured foreground hardware,Toys,430.1,True
+PROD00024,Switchable regional parallelism,Grocery,319.33,True
+PROD00025,Re-contextualized mobile Local Area Network,Grocery,487.96,True
+PROD00026,Visionary discrete success,Apparel,301.06,True
+PROD00027,Persevering object-oriented customer loyalty,Books,354.06,True
+PROD00028,Robust heuristic matrix,Apparel,255.14,True
+PROD00029,Reduced foreground task-force,Books,18.08,False
+PROD00030,Monitored asymmetric open system,Home,404.18,True
+PROD00031,Stand-alone client-server extranet,Sports,56.56,True
+PROD00032,Up-sized local flexibility,Apparel,450.41,True
+PROD00033,Synergized attitude-oriented archive,Apparel,498.68,True
+PROD00034,Cloned mission-critical service-desk,Books,464.52,True
+PROD00035,Extended hybrid knowledgebase,Beauty,392.68,True
+PROD00036,Advanced didactic strategy,Home,171.16,True
+PROD00037,Progressive interactive circuit,Grocery,480.31,True
+PROD00038,Multi-channeled hybrid projection,Beauty,23.67,True
+PROD00039,Persistent intermediate benchmark,Books,406.02,True
+PROD00040,Customer-focused cohesive hierarchy,Home,424.34,True
+PROD00041,Realigned explicit superstructure,Toys,456.2,True
+PROD00042,Diverse demand-driven database,Beauty,379.19,True
+PROD00043,Assimilated 24/7 moratorium,Sports,162.2,True
+PROD00044,Balanced high-level infrastructure,Grocery,148.6,True
+PROD00045,Fully-configurable 5thgeneration synergy,Beauty,219.26,True
+PROD00046,Profound tangible circuit,Electronics,247.15,True
+PROD00047,Re-engineered composite product,Books,306.0,True
+PROD00048,Function-based scalable open architecture,Sports,386.11,True
+PROD00049,Devolved multimedia Local Area Network,Electronics,96.48,True
+PROD00050,Face-to-face composite website,Apparel,321.54,True
+PROD00051,Customizable 6thgeneration leverage,Electronics,26.46,True
+PROD00052,Synergized transitional model,Grocery,177.83,True
+PROD00053,Progressive dedicated artificial intelligence,Beauty,370.05,True
+PROD00054,Down-sized scalable intranet,Apparel,255.85,True
+PROD00055,Focused transitional interface,Electronics,455.6,True
+PROD00056,Multi-channeled well-modulated frame,Apparel,446.5,True
+PROD00057,Quality-focused grid-enabled collaboration,Home,357.88,True
+PROD00058,Enterprise-wide 24hour leverage,Electronics,25.48,True
+PROD00059,Devolved 24hour architecture,Home,462.38,False
+PROD00060,Seamless local adapter,Grocery,330.82,True
+PROD00061,Reactive explicit challenge,Toys,492.25,True
+PROD00062,Quality-focused methodical extranet,Grocery,187.78,True
+PROD00063,Synergistic asymmetric Internet solution,Electronics,80.5,True
+PROD00064,Synergized transitional complexity,Sports,441.33,True
+PROD00065,Pre-emptive reciprocal standardization,Sports,104.82,True
+PROD00066,Optional well-modulated database,Sports,206.37,False
+PROD00067,Self-enabling hybrid Graphic Interface,Beauty,190.43,True
+PROD00068,Cloned cohesive process improvement,Grocery,408.91,True
+PROD00069,Upgradable upward-trending Graphic Interface,Electronics,314.39,True
+PROD00070,Multi-channeled full-range array,Books,67.06,True
+PROD00071,Synergized tertiary adapter,Home,319.89,True
+PROD00072,Ameliorated high-level artificial intelligence,Books,36.05,True
+PROD00073,Automated multimedia budgetary management,Apparel,471.92,True
+PROD00074,Secured exuding solution,Beauty,144.55,True
+PROD00075,Public-key zero administration extranet,Sports,56.92,True
+PROD00076,Triple-buffered clear-thinking capacity,Grocery,475.25,True
+PROD00077,Optimized context-sensitive database,Books,102.79,True
+PROD00078,Team-oriented actuating access,Electronics,236.07,True
+PROD00079,Expanded intangible access,Grocery,21.9,True
+PROD00080,Organized client-driven capacity,Home,381.98,True
+PROD00081,Front-line fresh-thinking alliance,Grocery,219.67,True
+PROD00082,Distributed value-added projection,Apparel,222.69,True
+PROD00083,Progressive discrete ability,Grocery,384.97,True
+PROD00084,Triple-buffered content-based secured line,Electronics,285.69,True
+PROD00085,Future-proofed systemic circuit,Toys,430.17,True
+PROD00086,Sharable even-keeled customer loyalty,Apparel,177.01,True
+PROD00087,Persevering full-range workforce,Electronics,197.48,True
+PROD00088,Expanded object-oriented budgetary management,Sports,254.28,True
+PROD00089,Optional zero administration orchestration,Grocery,169.94,True
+PROD00090,Digitized next generation algorithm,Electronics,436.05,True
+PROD00091,Robust bifurcated instruction set,Grocery,302.03,True
+PROD00092,Triple-buffered hybrid definition,Apparel,74.25,True
+PROD00093,Decentralized interactive toolset,Electronics,58.35,True
+PROD00094,Optimized reciprocal info-mediaries,Electronics,310.44,True
+PROD00095,Realigned methodical superstructure,Toys,187.07,True
+PROD00096,Synergistic fault-tolerant access,Home,343.11,False
+PROD00097,Fully-configurable demand-driven ability,Electronics,282.67,True
+PROD00098,Function-based holistic focus group,Home,428.93,True
+PROD00099,Function-based asymmetric adapter,Electronics,283.13,True
+PROD00100,Networked bandwidth-monitored Internet solution,Books,468.79,True
+PROD00101,Object-based empowering paradigm,Sports,343.75,True
+PROD00102,Persistent 24hour algorithm,Grocery,342.39,True
+PROD00103,Synergized needs-based forecast,Toys,490.13,True
+PROD00104,Implemented zero tolerance support,Books,459.95,True
+PROD00105,Managed neutral algorithm,Toys,114.25,True
+PROD00106,Cross-platform full-range superstructure,Apparel,481.63,True
+PROD00107,Streamlined bandwidth-monitored matrix,Sports,441.32,True
+PROD00108,Open-source exuding circuit,Electronics,217.57,True
+PROD00109,Reduced incremental solution,Electronics,231.59,True
+PROD00110,Down-sized multi-state ability,Grocery,493.78,True
+PROD00111,Reverse-engineered clear-thinking frame,Toys,106.43,True
+PROD00112,Cross-platform bottom-line help-desk,Beauty,231.91,True
+PROD00113,Adaptive foreground adapter,Beauty,233.37,True
+PROD00114,Streamlined reciprocal workforce,Beauty,69.16,True
+PROD00115,Open-source reciprocal orchestration,Grocery,110.83,True
+PROD00116,Triple-buffered intangible attitude,Grocery,474.16,True
+PROD00117,Upgradable uniform throughput,Toys,450.48,True
+PROD00118,Ergonomic bottom-line groupware,Beauty,189.28,True
+PROD00119,Diverse tertiary groupware,Beauty,73.24,True
+PROD00120,Multi-layered cohesive standardization,Books,152.26,True
+PROD00121,Fully-configurable tangible complexity,Beauty,28.29,True
+PROD00122,Devolved stable utilization,Apparel,330.85,True
+PROD00123,Reactive actuating Graphic Interface,Beauty,92.62,True
+PROD00124,Profit-focused neutral core,Grocery,194.83,True
+PROD00125,Persevering secondary intranet,Sports,491.87,True
+PROD00126,Sharable exuding encoding,Apparel,321.7,True
+PROD00127,Monitored encompassing support,Grocery,77.89,True
+PROD00128,Centralized tangible structure,Grocery,434.41,True
+PROD00129,Integrated modular initiative,Books,160.16,True
+PROD00130,Enhanced global synergy,Electronics,339.07,True
+PROD00131,Synergistic dedicated policy,Home,13.67,True
+PROD00132,Multi-lateral 6thgeneration throughput,Electronics,167.76,True
+PROD00133,Customer-focused background budgetary management,Toys,103.89,True
+PROD00134,Managed zero-defect complexity,Grocery,155.86,True
+PROD00135,Inverse foreground middleware,Toys,292.97,True
+PROD00136,Synergized intermediate contingency,Books,171.29,True
+PROD00137,Persistent local strategy,Sports,53.45,True
+PROD00138,Quality-focused neutral monitoring,Apparel,84.14,True
+PROD00139,Enhanced impactful analyzer,Beauty,81.67,True
+PROD00140,Face-to-face attitude-oriented intranet,Books,350.83,True
+PROD00141,Grass-roots national parallelism,Grocery,488.13,True
+PROD00142,Ameliorated disintermediate adapter,Apparel,454.86,True
+PROD00143,Function-based heuristic website,Electronics,70.39,True
+PROD00144,Public-key motivating ability,Beauty,240.01,True
+PROD00145,Triple-buffered well-modulated parallelism,Toys,465.68,True
+PROD00146,Phased bottom-line moratorium,Apparel,225.32,False
+PROD00147,Optional asymmetric website,Books,473.46,True
+PROD00148,Integrated clear-thinking conglomeration,Toys,493.94,True
+PROD00149,Robust directional hub,Home,91.09,True
+PROD00150,Total full-range solution,Beauty,458.63,True
+PROD00151,Visionary explicit protocol,Grocery,480.9,True
+PROD00152,Upgradable high-level policy,Home,179.29,True
+PROD00153,Enterprise-wide 6thgeneration Graphic Interface,Books,10.93,True
+PROD00154,User-centric heuristic open system,Beauty,495.88,True
+PROD00155,Open-source leadingedge Graphic Interface,Sports,98.44,True
+PROD00156,Organic modular policy,Electronics,246.34,True
+PROD00157,Robust background benchmark,Electronics,325.75,True
+PROD00158,Synergized content-based toolset,Sports,226.12,True
+PROD00159,Organized optimizing website,Electronics,138.6,True
+PROD00160,Reactive directional adapter,Books,330.73,True
+PROD00161,Triple-buffered fault-tolerant task-force,Electronics,67.93,True
+PROD00162,Managed maximized installation,Electronics,368.12,False
+PROD00163,Digitized leadingedge extranet,Beauty,102.22,True
+PROD00164,Inverse zero administration software,Beauty,20.88,True
+PROD00165,Customer-focused background info-mediaries,Beauty,169.81,True
+PROD00166,Adaptive neutral open system,Beauty,205.38,True
+PROD00167,Multi-channeled multi-tasking orchestration,Toys,360.4,True
+PROD00168,Persistent 5thgeneration website,Books,142.98,True
+PROD00169,Versatile bi-directional hardware,Books,459.63,True
+PROD00170,Switchable composite contingency,Toys,431.16,True
+PROD00171,Customizable zero-defect database,Electronics,405.95,True
+PROD00172,Exclusive homogeneous strategy,Home,123.75,True
+PROD00173,Programmable radical time-frame,Home,79.54,True
+PROD00174,Multi-tiered analyzing ability,Home,432.25,False
+PROD00175,Profound dedicated flexibility,Electronics,369.04,True
+PROD00176,Persevering intermediate software,Home,80.65,True
+PROD00177,User-friendly asynchronous capacity,Books,316.61,True
+PROD00178,Synchronized motivating productivity,Home,307.44,True
+PROD00179,Re-engineered multi-state parallelism,Apparel,102.16,True
+PROD00180,Secured uniform emulation,Home,95.23,True
+PROD00181,Adaptive systemic methodology,Home,4.91,True
+PROD00182,Grass-roots human-resource benchmark,Grocery,107.48,True
+PROD00183,User-centric bifurcated synergy,Beauty,162.24,True
+PROD00184,Fully-configurable upward-trending orchestration,Books,409.32,True
+PROD00185,Robust web-enabled productivity,Books,303.91,True
+PROD00186,Polarized object-oriented policy,Sports,366.59,True
+PROD00187,De-engineered maximized benchmark,Electronics,222.93,True
+PROD00188,Sharable full-range standardization,Home,90.4,True
+PROD00189,Object-based actuating toolset,Apparel,439.45,True
+PROD00190,Face-to-face didactic model,Grocery,350.88,True
+PROD00191,Synergistic mobile synergy,Home,96.53,True
+PROD00192,Quality-focused multi-state service-desk,Grocery,83.72,True
+PROD00193,Multi-channeled client-server migration,Sports,301.97,True
+PROD00194,Multi-lateral upward-trending project,Sports,111.47,True
+PROD00195,Realigned reciprocal migration,Toys,368.52,True
+PROD00196,Object-based multimedia projection,Sports,142.88,True
+PROD00197,Customer-focused needs-based throughput,Electronics,34.2,True
+PROD00198,Visionary empowering time-frame,Electronics,311.06,True
+PROD00199,Front-line object-oriented Local Area Network,Home,338.0,True
+PROD00200,Object-based tangible encryption,Books,8.96,True
+PROD00201,Business-focused transitional open system,Home,161.24,True
+PROD00202,Advanced secondary ability,Toys,349.94,True
+PROD00203,Phased disintermediate methodology,Home,285.89,True
+PROD00204,Reverse-engineered executive pricing structure,Toys,227.04,True
+PROD00205,Reduced reciprocal toolset,Books,187.11,True
+PROD00206,Upgradable solution-oriented framework,Books,158.8,True
+PROD00207,Grass-roots foreground Local Area Network,Grocery,116.37,True
+PROD00208,Synergized secondary protocol,Toys,206.64,True
+PROD00209,Function-based fault-tolerant focus group,Toys,461.95,True
+PROD00210,Customizable 6thgeneration knowledge user,Beauty,233.42,True
+PROD00211,Open-architected optimal concept,Books,78.88,True
+PROD00212,User-friendly interactive challenge,Beauty,211.54,False
+PROD00213,Networked scalable throughput,Apparel,394.77,True
+PROD00214,Mandatory executive projection,Apparel,201.51,False
+PROD00215,Focused exuding throughput,Apparel,78.07,True
+PROD00216,Organized heuristic open system,Grocery,50.14,True
+PROD00217,Customer-focused system-worthy infrastructure,Apparel,137.63,True
+PROD00218,Assimilated upward-trending firmware,Books,197.94,True
+PROD00219,Fully-configurable global paradigm,Sports,116.19,True
+PROD00220,Streamlined multimedia database,Books,218.13,True
+PROD00221,Seamless multi-state groupware,Apparel,245.21,True
+PROD00222,Self-enabling scalable strategy,Toys,480.84,True
+PROD00223,Re-contextualized user-facing application,Toys,353.89,True
+PROD00224,Persistent real-time strategy,Apparel,119.87,True
+PROD00225,Re-engineered interactive hierarchy,Grocery,209.92,False
+PROD00226,Profit-focused foreground knowledge user,Sports,316.86,True
+PROD00227,Profit-focused web-enabled definition,Sports,342.98,True
+PROD00228,Synergistic modular groupware,Home,300.76,True
+PROD00229,Operative static website,Toys,363.2,True
+PROD00230,Reactive asynchronous implementation,Apparel,186.68,True
+PROD00231,Polarized multi-tasking function,Home,11.8,True
+PROD00232,Extended fault-tolerant service-desk,Grocery,107.1,True
+PROD00233,Automated mobile solution,Grocery,455.34,True
+PROD00234,Expanded analyzing intranet,Books,394.04,True
+PROD00235,Streamlined static attitude,Toys,350.07,True
+PROD00236,Synergized maximized Local Area Network,Toys,391.45,True
+PROD00237,Networked bandwidth-monitored software,Grocery,354.93,True
+PROD00238,Sharable content-based functionalities,Grocery,245.83,True
+PROD00239,Switchable 4thgeneration project,Electronics,158.79,True
+PROD00240,Self-enabling 24hour matrix,Beauty,375.85,True
+PROD00241,Profound national data-warehouse,Home,266.03,True
+PROD00242,Networked optimal complexity,Sports,36.26,True
+PROD00243,Distributed content-based customer loyalty,Grocery,396.27,True
+PROD00244,Universal transitional middleware,Apparel,183.8,True
+PROD00245,Inverse executive access,Books,125.55,True
+PROD00246,Front-line content-based installation,Toys,180.02,True
+PROD00247,Reduced optimizing portal,Apparel,392.49,True
+PROD00248,Mandatory clear-thinking neural-net,Books,492.69,True
+PROD00249,Managed systemic throughput,Grocery,412.6,True
+PROD00250,Balanced upward-trending contingency,Home,149.92,True
+PROD00251,Face-to-face background task-force,Grocery,263.18,True
+PROD00252,Devolved systemic website,Grocery,395.98,True
+PROD00253,Object-based foreground customer loyalty,Electronics,151.19,True
+PROD00254,Diverse logistical encoding,Sports,15.57,True
+PROD00255,Intuitive system-worthy secured line,Beauty,42.12,True
+PROD00256,Triple-buffered full-range workforce,Apparel,225.0,True
+PROD00257,Decentralized executive process improvement,Apparel,298.14,True
+PROD00258,Organized coherent firmware,Home,468.64,True
+PROD00259,Right-sized system-worthy application,Grocery,354.03,True
+PROD00260,Ergonomic client-driven capacity,Apparel,294.48,True
+PROD00261,Fully-configurable encompassing matrices,Electronics,64.59,True
+PROD00262,Pre-emptive asynchronous frame,Books,186.3,True
+PROD00263,Optimized reciprocal groupware,Beauty,276.41,True
+PROD00264,Automated optimal encryption,Toys,199.58,True
+PROD00265,Triple-buffered heuristic functionalities,Electronics,322.88,True
+PROD00266,Multi-layered grid-enabled solution,Electronics,441.98,True
+PROD00267,Organized 6thgeneration collaboration,Apparel,249.85,True
+PROD00268,Automated 6thgeneration installation,Apparel,78.33,True
+PROD00269,Customizable methodical extranet,Grocery,48.65,True
+PROD00270,Compatible content-based instruction set,Toys,171.06,True
+PROD00271,Integrated empowering utilization,Home,247.75,True
+PROD00272,Multi-lateral non-volatile focus group,Beauty,321.98,True
+PROD00273,Phased hybrid budgetary management,Apparel,275.4,True
+PROD00274,Visionary cohesive benchmark,Grocery,225.9,True
+PROD00275,Reactive non-volatile encryption,Sports,116.02,True
+PROD00276,Switchable radical array,Electronics,29.08,True
+PROD00277,Sharable client-server matrices,Grocery,240.91,False
+PROD00278,Synergistic upward-trending system engine,Grocery,475.13,True
+PROD00279,Advanced intangible Graphic Interface,Apparel,251.79,True
+PROD00280,Assimilated leadingedge support,Beauty,12.57,True
+PROD00281,Open-architected bi-directional collaboration,Books,14.69,True
+PROD00282,Down-sized coherent moratorium,Beauty,276.37,False
+PROD00283,Streamlined disintermediate projection,Electronics,106.79,True
+PROD00284,Triple-buffered responsive algorithm,Electronics,176.64,True
+PROD00285,Multi-lateral human-resource frame,Toys,256.05,True
+PROD00286,Horizontal intangible open architecture,Beauty,108.75,True
+PROD00287,Team-oriented heuristic encryption,Sports,135.03,True
+PROD00288,Synchronized 24hour extranet,Beauty,82.45,True
+PROD00289,Multi-layered holistic Graphic Interface,Sports,169.24,True
+PROD00290,Mandatory optimal groupware,Sports,198.14,True
+PROD00291,Business-focused clear-thinking installation,Books,17.32,True
+PROD00292,Extended tertiary groupware,Beauty,104.68,True
+PROD00293,Optimized 24hour methodology,Beauty,402.9,True
+PROD00294,Proactive mobile throughput,Grocery,102.47,True
+PROD00295,Public-key real-time website,Sports,416.97,True
+PROD00296,Synergistic fault-tolerant utilization,Sports,182.39,True
+PROD00297,Extended discrete project,Grocery,284.72,True
+PROD00298,Devolved mobile installation,Sports,110.75,False
+PROD00299,Ergonomic object-oriented success,Electronics,110.56,True
+PROD00300,Right-sized analyzing firmware,Toys,105.56,True
+PROD00301,Synergistic incremental alliance,Beauty,360.82,True
+PROD00302,Assimilated multi-state conglomeration,Beauty,302.1,True
+PROD00303,Team-oriented user-facing encryption,Books,241.65,True
+PROD00304,Open-architected non-volatile implementation,Grocery,41.6,True
+PROD00305,Up-sized stable circuit,Electronics,426.78,True
+PROD00306,Optimized non-volatile adapter,Electronics,473.55,True
+PROD00307,Enterprise-wide systemic contingency,Sports,224.2,True
+PROD00308,Distributed analyzing open system,Apparel,51.32,True
+PROD00309,Organic holistic Graphical User Interface,Grocery,485.56,True
+PROD00310,Synergistic 3rdgeneration initiative,Toys,40.82,True
+PROD00311,Customer-focused logistical throughput,Electronics,150.84,False
+PROD00312,Robust 5thgeneration Internet solution,Home,153.12,True
+PROD00313,Stand-alone maximized algorithm,Grocery,62.8,True
+PROD00314,Up-sized asymmetric Graphical User Interface,Electronics,440.5,True
+PROD00315,Synergistic bi-directional conglomeration,Apparel,10.13,True
+PROD00316,Automated analyzing database,Grocery,229.26,True
+PROD00317,Reduced demand-driven extranet,Sports,137.22,True
+PROD00318,Integrated reciprocal alliance,Books,34.45,True
+PROD00319,Persevering intermediate policy,Grocery,35.38,True
+PROD00320,Phased cohesive budgetary management,Electronics,21.47,True
+PROD00321,Multi-tiered contextually-based superstructure,Books,207.97,True
+PROD00322,Compatible neutral projection,Electronics,329.34,True
+PROD00323,Ergonomic systemic encoding,Sports,355.82,True
+PROD00324,Versatile systemic emulation,Grocery,401.56,False
+PROD00325,Reverse-engineered user-facing productivity,Sports,481.71,True
+PROD00326,Compatible user-facing policy,Books,405.75,True
+PROD00327,Diverse object-oriented implementation,Electronics,437.14,True
+PROD00328,Streamlined reciprocal circuit,Beauty,280.8,True
+PROD00329,Customizable 24hour Graphical User Interface,Grocery,358.64,True
+PROD00330,Face-to-face 4thgeneration matrices,Sports,183.93,True
+PROD00331,Configurable cohesive conglomeration,Books,410.89,True
+PROD00332,Operative 6thgeneration approach,Toys,330.32,True
+PROD00333,Realigned clear-thinking circuit,Apparel,162.39,True
+PROD00334,Profound discrete projection,Beauty,89.46,True
+PROD00335,Persistent leadingedge synergy,Books,491.81,True
+PROD00336,Grass-roots contextually-based knowledgebase,Apparel,407.67,True
+PROD00337,Vision-oriented actuating functionalities,Books,338.83,True
+PROD00338,Horizontal regional open architecture,Beauty,45.96,True
+PROD00339,Inverse mobile support,Apparel,168.4,True
+PROD00340,Quality-focused national intranet,Books,227.03,True
+PROD00341,Down-sized neutral circuit,Apparel,445.2,True
+PROD00342,Centralized impactful core,Apparel,300.6,True
+PROD00343,Distributed cohesive solution,Apparel,426.0,True
+PROD00344,Switchable multi-state solution,Grocery,412.87,True
+PROD00345,User-friendly value-added algorithm,Beauty,440.72,True
+PROD00346,Configurable composite instruction set,Electronics,261.23,True
+PROD00347,Re-engineered neutral application,Sports,467.45,True
+PROD00348,Implemented empowering instruction set,Apparel,370.64,True
+PROD00349,Triple-buffered intangible hierarchy,Toys,246.12,True
+PROD00350,Profit-focused optimal Graphic Interface,Toys,275.58,True
+PROD00351,Devolved user-facing flexibility,Beauty,111.88,True
+PROD00352,Pre-emptive incremental access,Beauty,344.84,True
+PROD00353,Re-contextualized intangible solution,Grocery,321.31,True
+PROD00354,Ameliorated secondary interface,Grocery,358.95,True
+PROD00355,Fundamental leadingedge collaboration,Home,249.12,True
+PROD00356,Team-oriented responsive extranet,Sports,123.19,True
+PROD00357,Mandatory context-sensitive hierarchy,Grocery,272.36,True
+PROD00358,Persistent didactic knowledge user,Grocery,14.68,False
+PROD00359,Reactive maximized solution,Home,105.92,True
+PROD00360,Function-based methodical methodology,Home,36.31,True
+PROD00361,Reactive national firmware,Home,212.69,True
+PROD00362,Advanced leadingedge ability,Beauty,8.25,True
+PROD00363,Total tangible portal,Toys,195.71,True
+PROD00364,Future-proofed intangible functionalities,Beauty,310.77,True
+PROD00365,Polarized maximized knowledgebase,Electronics,340.52,True
+PROD00366,Vision-oriented actuating Internet solution,Books,161.86,False
+PROD00367,Cross-group client-server pricing structure,Books,431.0,True
+PROD00368,Profound motivating portal,Home,213.08,True
+PROD00369,Persevering coherent moratorium,Toys,474.71,True
+PROD00370,Integrated coherent initiative,Electronics,191.84,True
+PROD00371,Programmable analyzing utilization,Home,239.01,True
+PROD00372,Right-sized client-driven migration,Home,124.96,True
+PROD00373,Digitized impactful software,Home,228.98,True
+PROD00374,Up-sized asynchronous strategy,Grocery,302.99,True
+PROD00375,Stand-alone web-enabled implementation,Toys,156.98,True
+PROD00376,Function-based bottom-line intranet,Books,110.63,True
+PROD00377,Assimilated 24hour Graphical User Interface,Electronics,342.86,True
+PROD00378,Exclusive modular archive,Electronics,467.96,True
+PROD00379,Stand-alone multi-state interface,Apparel,233.2,True
+PROD00380,Automated full-range info-mediaries,Beauty,401.25,True
+PROD00381,Upgradable transitional infrastructure,Electronics,128.84,True
+PROD00382,Quality-focused multimedia access,Books,89.44,True
+PROD00383,Exclusive asynchronous solution,Apparel,22.79,True
+PROD00384,Stand-alone impactful implementation,Beauty,57.51,True
+PROD00385,Integrated methodical orchestration,Home,101.96,True
+PROD00386,Multi-layered scalable architecture,Electronics,195.49,True
+PROD00387,Digitized maximized paradigm,Apparel,386.91,False
+PROD00388,Progressive content-based capability,Apparel,114.04,True
+PROD00389,Enhanced well-modulated task-force,Books,116.68,True
+PROD00390,Fundamental client-driven open architecture,Home,53.46,True
+PROD00391,Synergized high-level encoding,Electronics,220.73,True
+PROD00392,Multi-layered systematic software,Beauty,13.21,True
+PROD00393,Future-proofed attitude-oriented initiative,Toys,318.51,True
+PROD00394,Ameliorated attitude-oriented orchestration,Books,19.67,True
+PROD00395,Robust attitude-oriented pricing structure,Beauty,36.27,True
+PROD00396,Realigned systemic firmware,Toys,238.89,True
+PROD00397,Realigned 3rdgeneration model,Grocery,453.59,True
+PROD00398,Organic 24hour standardization,Home,14.98,True
+PROD00399,Decentralized methodical ability,Apparel,333.33,True
+PROD00400,Team-oriented multimedia time-frame,Toys,280.01,True
+PROD00401,Up-sized systemic initiative,Apparel,292.31,True
+PROD00402,Pre-emptive bi-directional hierarchy,Electronics,118.43,True
+PROD00403,Down-sized 6thgeneration matrices,Apparel,374.08,True
+PROD00404,Persistent solution-oriented benchmark,Toys,32.82,True
+PROD00405,Up-sized analyzing leverage,Home,263.71,True
+PROD00406,Horizontal analyzing forecast,Electronics,153.76,True
+PROD00407,Face-to-face directional interface,Toys,460.6,True
+PROD00408,Reactive optimal hub,Grocery,96.77,True
+PROD00409,Upgradable leadingedge policy,Books,109.42,True
+PROD00410,Multi-tiered local standardization,Home,75.62,True
+PROD00411,Distributed secondary frame,Apparel,431.01,True
+PROD00412,Open-source attitude-oriented secured line,Home,284.38,True
+PROD00413,Business-focused fresh-thinking architecture,Beauty,420.37,True
+PROD00414,Cross-group 5thgeneration orchestration,Grocery,414.5,True
+PROD00415,Adaptive actuating service-desk,Beauty,24.33,True
+PROD00416,Phased actuating benchmark,Beauty,16.75,True
+PROD00417,Proactive next generation support,Toys,197.22,True
+PROD00418,Multi-lateral 4thgeneration success,Grocery,375.06,True
+PROD00419,Enhanced 24/7 hub,Beauty,324.08,True
+PROD00420,Business-focused coherent hardware,Apparel,122.95,True
+PROD00421,Synchronized executive open system,Books,387.23,True
+PROD00422,Phased cohesive software,Electronics,210.41,True
+PROD00423,Virtual responsive emulation,Apparel,387.14,False
+PROD00424,Triple-buffered systemic process improvement,Sports,198.45,True
+PROD00425,Enhanced 5thgeneration artificial intelligence,Toys,153.84,True
+PROD00426,Advanced systematic conglomeration,Toys,459.91,True
+PROD00427,Secured methodical hierarchy,Books,257.19,True
+PROD00428,Secured real-time leverage,Apparel,236.26,True
+PROD00429,Future-proofed secondary knowledgebase,Books,487.69,True
+PROD00430,Synergistic system-worthy projection,Home,128.04,True
+PROD00431,Switchable full-range productivity,Sports,437.75,True
+PROD00432,Focused radical interface,Grocery,158.59,True
+PROD00433,Inverse radical synergy,Grocery,284.31,True
+PROD00434,Organized value-added function,Sports,98.35,True
+PROD00435,Function-based well-modulated concept,Beauty,141.43,True
+PROD00436,Monitored coherent info-mediaries,Grocery,384.85,True
+PROD00437,Switchable systematic software,Apparel,401.72,True
+PROD00438,Seamless well-modulated support,Grocery,344.49,True
+PROD00439,Fundamental static projection,Toys,104.62,True
+PROD00440,Down-sized analyzing forecast,Apparel,61.25,True
+PROD00441,Configurable impactful forecast,Sports,320.38,True
+PROD00442,Customizable grid-enabled time-frame,Toys,93.99,True
+PROD00443,Up-sized didactic intranet,Books,189.37,True
+PROD00444,Implemented 6thgeneration utilization,Sports,466.44,True
+PROD00445,Synergized high-level array,Toys,75.73,True
+PROD00446,Ergonomic disintermediate knowledgebase,Sports,64.84,True
+PROD00447,Vision-oriented reciprocal throughput,Beauty,4.62,True
+PROD00448,Focused leadingedge utilization,Sports,464.12,True
+PROD00449,Optimized web-enabled infrastructure,Sports,257.03,True
+PROD00450,User-centric object-oriented throughput,Sports,28.34,True
+PROD00451,Synergized real-time knowledge user,Books,298.85,True
+PROD00452,Multi-tiered national budgetary management,Beauty,158.63,True
+PROD00453,User-friendly systematic implementation,Home,182.58,True
+PROD00454,Visionary 24hour moderator,Electronics,23.39,True
+PROD00455,Intuitive global methodology,Home,275.6,True
+PROD00456,Visionary background workforce,Home,463.1,True
+PROD00457,Persevering exuding policy,Grocery,22.85,True
+PROD00458,Switchable 6thgeneration website,Electronics,7.9,True
+PROD00459,Multi-lateral multi-state framework,Sports,144.24,True
+PROD00460,Seamless uniform infrastructure,Grocery,310.3,True
+PROD00461,Programmable multimedia artificial intelligence,Sports,464.14,True
+PROD00462,Grass-roots encompassing parallelism,Grocery,78.4,True
+PROD00463,Seamless 5thgeneration migration,Toys,381.89,True
+PROD00464,Centralized didactic website,Beauty,103.96,True
+PROD00465,Mandatory motivating initiative,Apparel,48.32,True
+PROD00466,Down-sized executive support,Sports,405.35,True
+PROD00467,Balanced systematic help-desk,Grocery,423.15,True
+PROD00468,Organic eco-centric firmware,Books,305.97,True
+PROD00469,Managed 4thgeneration open system,Grocery,141.9,False
+PROD00470,Secured object-oriented open architecture,Sports,219.29,True
+PROD00471,Optional demand-driven contingency,Beauty,224.74,True
+PROD00472,Fundamental holistic task-force,Home,206.04,True
+PROD00473,Fully-configurable foreground circuit,Apparel,370.36,True
+PROD00474,Organic user-facing parallelism,Beauty,14.44,True
+PROD00475,Customer-focused bandwidth-monitored budgetary management,Grocery,441.26,True
+PROD00476,Cross-group system-worthy approach,Toys,163.07,True
+PROD00477,Total multi-state hub,Beauty,419.59,True
+PROD00478,Team-oriented asynchronous monitoring,Toys,74.82,True
+PROD00479,Function-based incremental service-desk,Beauty,86.69,True
+PROD00480,Optimized multimedia pricing structure,Grocery,159.16,True
+PROD00481,Reactive static superstructure,Grocery,358.32,True
+PROD00482,Inverse radical definition,Beauty,301.42,True
+PROD00483,Down-sized asynchronous encryption,Electronics,344.19,True
+PROD00484,Multi-channeled object-oriented installation,Home,227.77,True
+PROD00485,Decentralized motivating secured line,Beauty,287.11,True
+PROD00486,Expanded actuating protocol,Electronics,247.01,True
+PROD00487,Persevering uniform solution,Beauty,47.46,True
+PROD00488,Exclusive solution-oriented focus group,Grocery,136.75,True
+PROD00489,Team-oriented national access,Sports,240.83,True
+PROD00490,Virtual 6thgeneration collaboration,Grocery,423.41,True
+PROD00491,Digitized stable instruction set,Toys,26.85,True
+PROD00492,Fundamental coherent hardware,Apparel,48.91,True
+PROD00493,Seamless modular protocol,Electronics,127.44,True
+PROD00494,Devolved 24/7 groupware,Sports,228.19,True
+PROD00495,Managed explicit moratorium,Beauty,141.42,True
+PROD00496,Diverse object-oriented model,Grocery,206.5,True
+PROD00497,Polarized neutral benchmark,Home,118.21,True
+PROD00498,Universal reciprocal circuit,Electronics,287.59,True
+PROD00499,Cloned well-modulated website,Apparel,146.26,True
+PROD00500,Horizontal methodical software,Beauty,447.78,True
+PROD00501,Function-based real-time superstructure,Grocery,302.51,True
+PROD00502,Quality-focused even-keeled knowledge user,Home,136.71,True
+PROD00503,Integrated human-resource ability,Home,390.19,True
+PROD00504,Implemented context-sensitive paradigm,Toys,362.43,True
+PROD00505,Fully-configurable logistical benchmark,Apparel,125.09,False
+PROD00506,Polarized uniform neural-net,Apparel,383.88,True
+PROD00507,Function-based systemic leverage,Electronics,251.95,True
+PROD00508,Enterprise-wide attitude-oriented firmware,Beauty,70.07,False
+PROD00509,Optional attitude-oriented knowledgebase,Apparel,423.73,True
+PROD00510,Enterprise-wide modular Graphical User Interface,Toys,288.21,True
+PROD00511,Public-key actuating workforce,Grocery,229.11,True
+PROD00512,Future-proofed grid-enabled website,Grocery,83.56,True
+PROD00513,Digitized regional contingency,Electronics,36.34,True
+PROD00514,Optimized local interface,Electronics,145.74,True
+PROD00515,Secured motivating model,Books,339.73,True
+PROD00516,Streamlined regional knowledgebase,Beauty,444.73,True
+PROD00517,Reverse-engineered needs-based moderator,Toys,393.83,True
+PROD00518,Persistent methodical groupware,Beauty,376.56,True
+PROD00519,Implemented even-keeled groupware,Beauty,85.95,True
+PROD00520,Profound empowering knowledge user,Apparel,403.0,True
+PROD00521,Virtual explicit architecture,Toys,421.45,True
+PROD00522,Front-line even-keeled ability,Beauty,193.14,True
+PROD00523,Customizable reciprocal challenge,Electronics,159.33,True
+PROD00524,Up-sized optimal solution,Electronics,110.14,True
+PROD00525,Extended intangible ability,Apparel,226.62,True
+PROD00526,Team-oriented full-range portal,Apparel,325.59,True
+PROD00527,Optional contextually-based standardization,Grocery,73.73,True
+PROD00528,Persevering full-range protocol,Books,128.7,True
+PROD00529,Cloned tangible paradigm,Books,187.67,True
+PROD00530,Expanded eco-centric implementation,Apparel,209.65,True
+PROD00531,Fully-configurable multi-state portal,Apparel,448.83,True
+PROD00532,Assimilated bifurcated collaboration,Sports,188.9,True
+PROD00533,Grass-roots multi-tasking forecast,Beauty,443.86,True
+PROD00534,Implemented mission-critical portal,Home,300.32,True
+PROD00535,Fully-configurable interactive success,Books,23.14,True
+PROD00536,Synchronized grid-enabled installation,Books,36.67,True
+PROD00537,Decentralized asymmetric hierarchy,Sports,461.23,True
+PROD00538,Open-source neutral website,Home,75.53,True
+PROD00539,Open-architected client-driven strategy,Sports,32.76,True
+PROD00540,De-engineered tangible encoding,Toys,15.0,True
+PROD00541,Centralized maximized algorithm,Books,175.42,True
+PROD00542,Switchable intangible groupware,Toys,28.31,True
+PROD00543,Seamless eco-centric model,Home,442.12,True
+PROD00544,Assimilated foreground emulation,Beauty,382.53,False
+PROD00545,Customer-focused homogeneous alliance,Home,499.33,True
+PROD00546,De-engineered tertiary capacity,Beauty,167.09,True
+PROD00547,Organized scalable framework,Sports,74.54,True
+PROD00548,Front-line dynamic application,Grocery,49.32,True
+PROD00549,Extended leadingedge service-desk,Beauty,112.46,False
+PROD00550,Enhanced solution-oriented structure,Electronics,476.92,True
+PROD00551,Versatile mobile architecture,Grocery,210.54,True
+PROD00552,Public-key incremental productivity,Apparel,215.18,True
+PROD00553,Streamlined cohesive forecast,Grocery,3.28,True
+PROD00554,Innovative logistical help-desk,Electronics,134.96,True
+PROD00555,Operative content-based architecture,Home,111.89,True
+PROD00556,Customer-focused clear-thinking product,Apparel,462.64,True
+PROD00557,Compatible demand-driven moratorium,Home,335.7,True
+PROD00558,Total 24/7 matrix,Toys,309.55,True
+PROD00559,Quality-focused contextually-based open architecture,Books,477.97,True
+PROD00560,Pre-emptive needs-based task-force,Toys,316.87,True
+PROD00561,Business-focused hybrid instruction set,Apparel,334.87,True
+PROD00562,Compatible foreground standardization,Sports,403.68,True
+PROD00563,Innovative grid-enabled process improvement,Grocery,115.42,False
+PROD00564,Profound full-range migration,Books,138.28,True
+PROD00565,Open-architected homogeneous emulation,Sports,250.94,True
+PROD00566,Multi-channeled intermediate Graphic Interface,Beauty,28.49,True
+PROD00567,Triple-buffered explicit artificial intelligence,Sports,55.93,True
+PROD00568,Programmable 4thgeneration concept,Grocery,422.71,True
+PROD00569,Self-enabling neutral software,Grocery,233.78,True
+PROD00570,Programmable context-sensitive Graphical User Interface,Home,349.6,True
+PROD00571,Devolved asynchronous concept,Beauty,372.03,True
+PROD00572,Switchable multi-state strategy,Toys,151.65,True
+PROD00573,Quality-focused homogeneous Internet solution,Books,474.4,True
+PROD00574,Reduced 6thgeneration functionalities,Toys,463.28,True
+PROD00575,Seamless encompassing info-mediaries,Beauty,408.09,True
+PROD00576,Reverse-engineered transitional portal,Books,489.24,True
+PROD00577,Progressive well-modulated function,Toys,61.76,True
+PROD00578,Enhanced national middleware,Books,464.13,True
+PROD00579,Diverse system-worthy monitoring,Grocery,204.44,True
+PROD00580,Horizontal local alliance,Sports,123.89,True
+PROD00581,Managed coherent analyzer,Toys,82.12,True
+PROD00582,Fully-configurable attitude-oriented secured line,Beauty,427.04,True
+PROD00583,Face-to-face systematic concept,Home,398.71,False
+PROD00584,Seamless needs-based open architecture,Beauty,247.85,True
+PROD00585,Persevering background utilization,Apparel,495.94,False
+PROD00586,Upgradable web-enabled concept,Apparel,19.24,True
+PROD00587,Expanded value-added complexity,Toys,340.33,True
+PROD00588,Ameliorated demand-driven Internet solution,Toys,334.03,True
+PROD00589,Multi-tiered multi-state Internet solution,Apparel,446.76,True
+PROD00590,Implemented clear-thinking toolset,Electronics,498.17,True
+PROD00591,Organic value-added matrices,Electronics,308.34,True
+PROD00592,Quality-focused human-resource challenge,Grocery,395.4,True
+PROD00593,Optimized needs-based standardization,Books,56.45,True
+PROD00594,Switchable zero-defect Graphical User Interface,Home,416.41,True
+PROD00595,Enterprise-wide methodical circuit,Home,232.78,True
+PROD00596,Progressive maximized support,Apparel,322.8,True
+PROD00597,Multi-tiered 4thgeneration success,Home,249.72,True
+PROD00598,Fully-configurable coherent ability,Sports,18.92,True
+PROD00599,Profit-focused mission-critical knowledge user,Apparel,348.37,True
+PROD00600,Realigned directional flexibility,Toys,476.0,True
+PROD00601,Organic attitude-oriented synergy,Beauty,210.73,True
+PROD00602,Adaptive incremental contingency,Sports,334.13,True
+PROD00603,Synchronized national emulation,Books,76.91,True
+PROD00604,Face-to-face encompassing productivity,Home,32.2,True
+PROD00605,Sharable grid-enabled system engine,Apparel,56.51,True
+PROD00606,Versatile scalable strategy,Apparel,362.22,True
+PROD00607,Multi-layered mission-critical encryption,Toys,344.8,True
+PROD00608,Mandatory interactive conglomeration,Books,219.36,True
+PROD00609,Ergonomic solution-oriented capacity,Sports,468.91,True
+PROD00610,Organized modular project,Books,329.12,True
+PROD00611,Universal zero administration alliance,Beauty,98.17,True
+PROD00612,Centralized eco-centric groupware,Electronics,421.04,True
+PROD00613,Extended global moderator,Beauty,95.72,True
+PROD00614,Multi-channeled tertiary paradigm,Beauty,392.51,True
+PROD00615,Phased didactic approach,Books,69.05,True
+PROD00616,De-engineered zero-defect Local Area Network,Beauty,330.23,True
+PROD00617,Face-to-face value-added productivity,Apparel,6.7,True
+PROD00618,Synchronized clear-thinking concept,Sports,209.65,True
+PROD00619,Reactive grid-enabled workforce,Toys,76.64,True
+PROD00620,Organized 3rdgeneration function,Grocery,257.85,True
+PROD00621,Triple-buffered cohesive toolset,Sports,453.93,True
+PROD00622,Function-based 6thgeneration task-force,Beauty,22.11,False
+PROD00623,Upgradable coherent groupware,Toys,356.55,True
+PROD00624,Mandatory global frame,Toys,170.58,True
+PROD00625,Open-source multi-state portal,Grocery,107.9,True
+PROD00626,Up-sized tangible software,Sports,266.84,True
+PROD00627,Face-to-face optimal utilization,Grocery,219.16,True
+PROD00628,Organized logistical projection,Electronics,229.11,True
+PROD00629,Automated explicit benchmark,Sports,270.78,True
+PROD00630,Customer-focused intangible matrices,Electronics,144.39,False
+PROD00631,Realigned national architecture,Home,238.84,True
+PROD00632,Multi-lateral zero tolerance paradigm,Books,457.31,True
+PROD00633,Operative scalable toolset,Grocery,461.78,True
+PROD00634,Horizontal impactful project,Grocery,226.29,True
+PROD00635,Persevering discrete moderator,Electronics,408.92,True
+PROD00636,Object-based zero tolerance Graphical User Interface,Sports,199.22,False
+PROD00637,Multi-tiered real-time access,Grocery,23.15,True
+PROD00638,Innovative even-keeled migration,Books,121.77,False
+PROD00639,Synchronized empowering synergy,Electronics,479.44,True
+PROD00640,Synchronized intermediate methodology,Sports,269.02,True
+PROD00641,User-friendly discrete database,Beauty,11.12,True
+PROD00642,Enterprise-wide transitional conglomeration,Sports,385.14,True
+PROD00643,Secured asynchronous solution,Books,494.47,True
+PROD00644,Diverse executive moratorium,Sports,390.5,True
+PROD00645,Robust full-range help-desk,Beauty,281.7,True
+PROD00646,Public-key maximized solution,Grocery,10.06,True
+PROD00647,Organic 4thgeneration access,Toys,324.48,True
+PROD00648,Switchable interactive complexity,Electronics,52.43,True
+PROD00649,Front-line systematic pricing structure,Sports,87.0,True
+PROD00650,Fundamental foreground paradigm,Sports,209.54,True
+PROD00651,Reverse-engineered systematic focus group,Grocery,365.39,True
+PROD00652,Diverse intangible focus group,Sports,156.82,True
+PROD00653,Automated mobile installation,Home,40.88,True
+PROD00654,Assimilated scalable open architecture,Home,426.96,False
+PROD00655,Right-sized fresh-thinking database,Grocery,35.79,True
+PROD00656,Centralized attitude-oriented capacity,Sports,482.68,True
+PROD00657,Universal actuating definition,Books,170.75,True
+PROD00658,Fully-configurable object-oriented migration,Books,256.86,True
+PROD00659,Assimilated system-worthy capability,Sports,393.39,True
+PROD00660,Front-line uniform middleware,Home,178.56,True
+PROD00661,Proactive background task-force,Grocery,274.02,True
+PROD00662,Multi-tiered client-server moratorium,Electronics,455.73,True
+PROD00663,Face-to-face dynamic help-desk,Home,496.09,True
+PROD00664,Optimized neutral process improvement,Toys,82.69,True
+PROD00665,Business-focused fresh-thinking neural-net,Grocery,240.91,True
+PROD00666,Vision-oriented asynchronous alliance,Toys,17.81,True
+PROD00667,Quality-focused systematic adapter,Beauty,54.47,True
+PROD00668,Customizable high-level data-warehouse,Beauty,108.54,True
+PROD00669,Expanded logistical focus group,Books,387.41,True
+PROD00670,Exclusive fresh-thinking initiative,Home,488.14,True
+PROD00671,Persevering 3rdgeneration capacity,Books,280.06,True
+PROD00672,Sharable solution-oriented knowledge user,Toys,322.34,True
+PROD00673,Pre-emptive composite migration,Electronics,21.08,True
+PROD00674,Visionary logistical archive,Toys,11.51,True
+PROD00675,Intuitive homogeneous hierarchy,Toys,325.41,True
+PROD00676,Robust intermediate protocol,Electronics,484.88,True
+PROD00677,Secured holistic Local Area Network,Home,69.64,True
+PROD00678,Total optimal secured line,Home,297.66,True
+PROD00679,Implemented heuristic methodology,Toys,62.52,True
+PROD00680,Mandatory non-volatile Graphical User Interface,Toys,125.28,True
+PROD00681,Seamless non-volatile hub,Beauty,148.85,True
+PROD00682,Multi-layered 4thgeneration Graphical User Interface,Electronics,469.71,True
+PROD00683,Inverse solution-oriented encoding,Apparel,348.87,True
+PROD00684,Team-oriented responsive info-mediaries,Apparel,142.49,True
+PROD00685,Devolved non-volatile strategy,Home,487.64,True
+PROD00686,Self-enabling attitude-oriented intranet,Books,156.27,True
+PROD00687,Customizable exuding migration,Electronics,16.0,True
+PROD00688,Multi-lateral executive archive,Apparel,356.76,True
+PROD00689,Realigned directional process improvement,Home,183.18,True
+PROD00690,Monitored cohesive solution,Sports,384.7,True
+PROD00691,Intuitive clear-thinking support,Home,93.76,True
+PROD00692,Switchable high-level circuit,Home,118.07,True
+PROD00693,Centralized logistical secured line,Home,406.35,True
+PROD00694,Vision-oriented multi-tasking project,Sports,453.44,True
+PROD00695,Profit-focused cohesive time-frame,Home,447.98,True
+PROD00696,Virtual asynchronous infrastructure,Electronics,158.01,True
+PROD00697,Streamlined foreground attitude,Home,329.98,True
+PROD00698,Cloned reciprocal product,Electronics,71.04,True
+PROD00699,Triple-buffered contextually-based array,Electronics,56.09,True
+PROD00700,Innovative holistic matrix,Books,405.32,True
+PROD00701,Implemented tertiary frame,Home,134.35,True
+PROD00702,Intuitive coherent approach,Grocery,43.76,True
+PROD00703,Expanded 6thgeneration utilization,Home,316.53,False
+PROD00704,Synchronized client-driven leverage,Grocery,365.19,True
+PROD00705,Self-enabling human-resource task-force,Grocery,494.85,False
+PROD00706,Secured empowering Local Area Network,Sports,289.62,True
+PROD00707,Exclusive 4thgeneration migration,Grocery,247.85,True
+PROD00708,Upgradable zero-defect neural-net,Beauty,107.87,True
+PROD00709,Digitized exuding approach,Grocery,413.04,True
+PROD00710,Ergonomic upward-trending hierarchy,Apparel,204.05,True
+PROD00711,Synergized disintermediate conglomeration,Sports,136.87,True
+PROD00712,Up-sized background toolset,Home,354.33,True
+PROD00713,Down-sized user-facing forecast,Books,3.72,True
+PROD00714,Horizontal 24/7 support,Grocery,374.15,True
+PROD00715,Total context-sensitive paradigm,Apparel,407.78,True
+PROD00716,Exclusive zero administration Internet solution,Grocery,68.83,False
+PROD00717,Focused explicit project,Grocery,373.21,True
+PROD00718,Ameliorated object-oriented extranet,Beauty,69.08,True
+PROD00719,Cross-group context-sensitive website,Home,288.56,True
+PROD00720,Universal background neural-net,Home,415.5,False
+PROD00721,Automated high-level structure,Home,172.65,True
+PROD00722,Switchable composite help-desk,Apparel,362.98,True
+PROD00723,Polarized object-oriented functionalities,Toys,164.58,True
+PROD00724,Reduced non-volatile approach,Sports,223.38,True
+PROD00725,Triple-buffered 4thgeneration forecast,Apparel,105.77,True
+PROD00726,Polarized real-time extranet,Grocery,246.49,True
+PROD00727,Cross-group client-driven website,Beauty,27.32,False
+PROD00728,Streamlined disintermediate collaboration,Books,81.83,True
+PROD00729,Inverse exuding installation,Electronics,374.92,True
+PROD00730,Advanced background neural-net,Grocery,208.46,True
+PROD00731,Right-sized background toolset,Apparel,143.87,True
+PROD00732,Customizable demand-driven website,Electronics,238.2,True
+PROD00733,Innovative user-facing superstructure,Home,294.48,True
+PROD00734,Focused empowering website,Grocery,226.32,True
+PROD00735,Profit-focused tertiary hierarchy,Sports,420.22,True
+PROD00736,Phased asymmetric customer loyalty,Sports,82.75,True
+PROD00737,Extended radical throughput,Apparel,11.52,True
+PROD00738,Synergized regional Internet solution,Books,194.14,True
+PROD00739,Team-oriented context-sensitive Local Area Network,Apparel,57.58,True
+PROD00740,Optimized needs-based instruction set,Sports,345.88,True
+PROD00741,Cross-group contextually-based methodology,Sports,373.96,False
+PROD00742,Front-line explicit capacity,Home,122.89,True
+PROD00743,Customizable zero administration budgetary management,Grocery,379.6,True
+PROD00744,Distributed 4thgeneration throughput,Apparel,314.88,True
+PROD00745,Down-sized regional array,Electronics,77.1,False
+PROD00746,Total tertiary database,Beauty,285.27,False
+PROD00747,Profit-focused attitude-oriented definition,Grocery,96.12,True
+PROD00748,Balanced background frame,Beauty,127.83,True
+PROD00749,Reverse-engineered fault-tolerant open architecture,Grocery,315.54,True
+PROD00750,Automated cohesive process improvement,Toys,50.76,True
+PROD00751,Progressive real-time application,Grocery,445.46,True
+PROD00752,Realigned needs-based project,Toys,180.37,True
+PROD00753,Progressive transitional architecture,Toys,248.1,True
+PROD00754,Reduced homogeneous service-desk,Electronics,345.8,True
+PROD00755,Open-source exuding workforce,Apparel,117.96,True
+PROD00756,Multi-lateral cohesive core,Grocery,235.14,True
+PROD00757,Customizable object-oriented benchmark,Home,54.0,True
+PROD00758,Synergistic object-oriented parallelism,Books,360.06,True
+PROD00759,Automated multimedia collaboration,Grocery,111.58,True
+PROD00760,Cloned static data-warehouse,Sports,8.81,True
+PROD00761,Ergonomic fresh-thinking infrastructure,Home,495.68,True
+PROD00762,Realigned upward-trending standardization,Books,446.87,True
+PROD00763,Expanded bandwidth-monitored intranet,Grocery,307.05,True
+PROD00764,Distributed discrete task-force,Sports,396.18,True
+PROD00765,Optional responsive initiative,Grocery,24.95,True
+PROD00766,Pre-emptive actuating framework,Apparel,329.68,True
+PROD00767,Universal tangible architecture,Electronics,463.34,True
+PROD00768,Polarized attitude-oriented access,Grocery,398.47,True
+PROD00769,Streamlined didactic solution,Home,47.09,True
+PROD00770,Reactive non-volatile array,Sports,3.05,True
+PROD00771,Secured bifurcated middleware,Toys,377.4,True
+PROD00772,Virtual mission-critical frame,Apparel,16.37,True
+PROD00773,Automated fresh-thinking algorithm,Electronics,334.65,True
+PROD00774,Customizable disintermediate success,Apparel,119.41,False
+PROD00775,Expanded zero tolerance complexity,Apparel,100.34,True
+PROD00776,Ameliorated well-modulated encryption,Apparel,149.61,True
+PROD00777,Future-proofed empowering parallelism,Books,115.14,True
+PROD00778,Multi-layered intermediate algorithm,Home,363.69,True
+PROD00779,Proactive asynchronous extranet,Toys,314.68,True
+PROD00780,Programmable methodical throughput,Sports,417.87,True
+PROD00781,Object-based grid-enabled approach,Home,417.31,True
+PROD00782,Universal modular knowledgebase,Beauty,6.79,True
+PROD00783,Monitored web-enabled strategy,Apparel,343.17,True
+PROD00784,Distributed heuristic strategy,Home,45.16,True
+PROD00785,Streamlined logistical collaboration,Home,79.41,True
+PROD00786,Face-to-face asynchronous implementation,Grocery,350.74,True
+PROD00787,Versatile value-added database,Toys,443.53,True
+PROD00788,Decentralized hybrid algorithm,Grocery,476.95,True
+PROD00789,Exclusive stable methodology,Books,141.75,True
+PROD00790,Stand-alone motivating superstructure,Grocery,463.33,True
+PROD00791,Compatible background projection,Electronics,100.55,True
+PROD00792,Synchronized value-added throughput,Books,463.84,True
+PROD00793,Centralized foreground throughput,Home,398.91,True
+PROD00794,Team-oriented web-enabled intranet,Electronics,117.18,True
+PROD00795,Assimilated content-based task-force,Home,281.35,True
+PROD00796,Re-engineered reciprocal implementation,Apparel,29.26,True
+PROD00797,Visionary demand-driven approach,Grocery,400.07,True
+PROD00798,Optimized impactful Local Area Network,Electronics,255.68,True
+PROD00799,Ameliorated 24/7 hardware,Home,123.02,True
+PROD00800,Right-sized real-time focus group,Toys,263.96,True
