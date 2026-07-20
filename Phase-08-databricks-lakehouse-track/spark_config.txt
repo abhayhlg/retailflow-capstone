@@ -1,0 +1,10 @@
+spark.hadoop.fs.s3n.awsAccessKeyId <YOUR-ACCESS-KEY-ID>
+spark.hadoop.fs.s3n.awsSecretAccessKey <YOUR-SECRET-ACCESS-KEY>
+spark.hadoop.fs.s3.awsAccessKeyId <YOUR-ACCESS-KEY-ID>
+spark.hadoop.fs.s3.awsSecretAccessKey <YOUR-SECRET-ACCESS-KEY>
+
+
+AWS_ACCESS_KEY_ID=<YOUR-ACCESS-KEY-ID>
+AWS_SECRET_ACCESS_KEY=<YOUR-SECRET-ACCESS-KEY>
+
+

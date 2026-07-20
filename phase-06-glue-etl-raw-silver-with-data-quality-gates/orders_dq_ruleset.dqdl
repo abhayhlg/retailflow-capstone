@@ -3,6 +3,7 @@ Rules = [
     IsComplete "customer_id",
     IsComplete "status",
     IsComplete "order_total",
+	IsComplete "order_date",
     IsUnique "order_id",
     ColumnValues "order_total" >= 0
 ]

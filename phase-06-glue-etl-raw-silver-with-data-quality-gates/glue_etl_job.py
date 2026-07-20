@@ -222,10 +222,8 @@ orders_typed = safe_select(orders_df, ORDERS_SCHEMA)
 
 # input_file_name() doesn't reference a source column, so this is always
 # safe to run even against an empty read.
-orders_typed = orders_typed.withColumn(
-    "order_date",
-    F.regexp_extract(F.input_file_name(), r"order_date=(\d{4}-\d{2}-\d{2})", 1).cast("date"),
-)
+orders_typed = orders_typed.withColumn("order_date", F.to_date(F.col("order_ts")))
+
 
 # order_total is NOT a raw column on orders — compute it by summing this
 # run's order_items.line_total per order_id, then left-join onto orders.
@@ -256,6 +254,8 @@ orders_clean = (
 orders_clean.cache()
 orders_new_count = orders_clean.count()
 print(f"[bookmark check] new orders rows this run: {orders_new_count}")
+print("Orders DF:")
+print(orders_clean.show(5))
 
 # ---------------------------------------------------------------------------
 # 4. customers / products: schema-safe cast, null handling, dedup

@@ -1,0 +1,62 @@
+{
+  "name": "RetailFlow_Data_Pipeline_Job",
+  "tasks": [
+    {
+      "task_key": "Ingest_Clickstream_AutoLoader",
+      "notebook_task": {
+        "notebook_path": "/Workspace/Repos/yourorg/retailflow/02_bronze_clickstream_autoloader",
+        "source": "WORKSPACE"
+      },
+      "existing_cluster_id": "0123-your-all-purpose-cluster-id",
+      "retry_policy": {
+        "max_retries": 2,
+        "interval_seconds": 120,
+        "backoff_matrix_multiplier": 2.0
+      }
+    },
+    {
+      "task_key": "Run_DLT_Silver_Pipeline",
+      "depends_on": [
+        {
+          "task_key": "Ingest_Clickstream_AutoLoader"
+        }
+      ],
+      "pipeline_task": {
+        "pipeline_id": "dlt-retailflow-pipeline-id",
+        "full_refresh": false
+      },
+      "retry_policy": {
+        "max_retries": 1,
+        "interval_seconds": 60,
+        "backoff_matrix_multiplier": 1.0
+      }
+    },
+    {
+      "task_key": "Generate_Gold_Aggregations",
+      "depends_on": [
+        {
+          "task_key": "Run_DLT_Silver_Pipeline"
+        }
+      ],
+      "notebook_task": {
+        "notebook_path": "/Workspace/Repos/yourorg/retailflow/03_silver_gold_processing",
+        "source": "WORKSPACE"
+      },
+      "existing_cluster_id": "0123-your-all-purpose-cluster-id",
+      "retry_policy": {
+        "max_retries": 1,
+        "interval_seconds": 60,
+        "backoff_matrix_multiplier": 1.0
+      }
+    }
+  ],
+  "notification_settings": {
+    "no_alert_for_skipped_runs": false
+  },
+  "webhook_notifications": {},
+  "email_notifications": {
+    "on_failure": [
+      "abhay.ops@yourcompany.com"
+    ]
+  }
+}

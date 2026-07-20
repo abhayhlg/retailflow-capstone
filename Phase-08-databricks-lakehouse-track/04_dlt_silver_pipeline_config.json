@@ -1,0 +1,31 @@
+{
+    "id": "dlt-retailflow-pipeline-id",
+    "name": "retailflow_silver_pipeline",
+    "storage": "s3://retailflow-abhay/consumption/dlt_storage",
+    "configuration": {
+        "pipelines.channel": "current"
+    },
+    "clusters": [
+        {
+            "label": "default",
+            "node_type_id": "m5.large",
+            "driver_node_type_id": "m5.large",
+            "num_workers": 1,
+            "spark_conf": {
+                "spark.master": "local[*]"
+            }
+        }
+    ],
+    "libraries": [
+        {
+            "notebook": {
+                "path": "/Workspace/Repos/yourorg/retailflow/04_dlt_silver_pipeline"
+            }
+        }
+    ],
+    "target": "silver",
+    "continuous": false,
+    "development": true,
+    "catalog": "retailflow_catalog",
+    "photon": true
+}
